@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Solicitação de Crédito Workspace">dc6aa2b82e3bb110b8056cf73df686e0</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d86aa2b8d43bb110712fdf34941323c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_page_property_d86aa2b8d43bb110712fdf34941323c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:54</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1174267_solici_0.dc6aa2b82e3bb110b8056cf73df686e0.root.listConfigId</unique_name>
+        <value>d96a26b8473bb11008334d05516d4328</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=d86aa2b8d43bb110712fdf34941323c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_page_property_d86aa2b8d43bb110712fdf34941323c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>listConfigId</name><page display_value="Solicitação de Crédito Workspace">dc6aa2b82e3bb110b8056cf73df686e0</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-15 14:31:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>d86aa2b8d43bb110712fdf34941323c1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>listConfigId</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_page_property_d86aa2b8d43bb110712fdf34941323c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-15 14:31:54</sys_updated_on><type>string</type><unique_name>x_1174267_solici_0.dc6aa2b82e3bb110b8056cf73df686e0.root.listConfigId</unique_name><value>d96a26b8473bb11008334d05516d4328</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=d86aa2b8d43bb110712fdf34941323c1"/></record_update>]]></payload>
+        <payload_hash>1003940707</payload_hash>
+        <record_name>listConfigId</record_name>
+        <reverted_from/>
+        <source>64d0b15f4727311008334d05516d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:54</sys_created_on>
+        <sys_id>d16a26b8473bb11008334d05516d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0d893f5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:54</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>d96a26b8203bb11023168a6cff400f57</update_guid>
+        <update_guid_history>d96a26b8203bb11023168a6cff400f57:1003940707,d56a26b8513bb1109f3ea5ba73452056:-1395084873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 16:32:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1f625ec212184e9a9b0445d79fb0a379</sys_id>
+        <sys_metadata>d86aa2b8d43bb110712fdf34941323c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_d86aa2b8d43bb110712fdf34941323c1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_d86aa2b8d43bb110712fdf34941323c1">d16a26b8473bb11008334d05516d4358</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 16:32:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

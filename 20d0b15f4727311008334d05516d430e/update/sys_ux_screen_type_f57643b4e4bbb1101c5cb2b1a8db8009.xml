@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Simple List</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 16:34:34</sys_created_on>
+        <sys_id>f57643b4e4bbb1101c5cb2b1a8db8009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_screen_type_f57643b4e4bbb1101c5cb2b1a8db8009</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 16:34:34</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=f57643b4e4bbb1101c5cb2b1a8db8009"/>
+</record_update>

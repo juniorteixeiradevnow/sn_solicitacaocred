@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Incident Overview - New Tab">6a879d884733311008334d05516d435a</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2024-01-12 16:35:32">d2c711c84733311008334d05516d4399</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 00:35:32</sys_created_on>
+        <sys_id>9ec7d5c84733311008334d05516d431d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>6a879d884733311008334d05516d435a</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_9ec7d5c84733311008334d05516d431d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 00:40:55</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_grid_canvas_pane_9ec7d5c84733311008334d05516d431d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Incident Overview - New Tab">6a879d884733311008334d05516d435a</grid_canvas><height>10</height><portal_widget display_value="Created 2024-01-12 16:35:32">d2c711c84733311008334d05516d4399</portal_widget><posx>0</posx><posy>10</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-13 00:35:32</sys_created_on><sys_id>9ec7d5c84733311008334d05516d431d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>6a879d884733311008334d05516d435a</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_grid_canvas_pane_9ec7d5c84733311008334d05516d431d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-13 00:40:55</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>137915251</payload_hash>
+        <record_name>6a879d884733311008334d05516d435a</record_name>
+        <reverted_from/>
+        <source>64d0b15f4727311008334d05516d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 00:40:55</sys_created_on>
+        <sys_id>1509550c4733311008334d05516d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0043bd540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 00:40:55</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>1d09550cf4333110b5fe4ac543d530ad</update_guid>
+        <update_guid_history>1d09550cf4333110b5fe4ac543d530ad:137915251,50f8990cc7333110c6ec6a76c799b999:-911456750,cc18d9c8b43331101149e13d1676aec6:137915251,aec7d5c842333110411183a65369831e:1775397718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-13 00:40:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>206570e6fb14465682f847e35344b949</sys_id>
+        <sys_metadata>9ec7d5c84733311008334d05516d431d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6a879d884733311008334d05516d435a</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_9ec7d5c84733311008334d05516d431d</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_9ec7d5c84733311008334d05516d431d">1509550c4733311008334d05516d43ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-13 00:40:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

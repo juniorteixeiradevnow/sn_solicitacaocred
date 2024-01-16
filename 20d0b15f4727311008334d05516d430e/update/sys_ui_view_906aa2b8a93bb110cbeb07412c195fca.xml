@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-solicitação-de-crédito-workspace-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:51</sys_created_on>
+        <sys_id>906aa2b8a93bb110cbeb07412c195fca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace Solicitação de Crédito Workspace 0</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ui_view_906aa2b8a93bb110cbeb07412c195fca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:57</sys_updated_on>
+        <title>Workspace Solicitação de Crédito Workspace 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

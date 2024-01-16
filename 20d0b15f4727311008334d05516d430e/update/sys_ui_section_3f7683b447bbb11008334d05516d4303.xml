@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3f7683b447bbb11008334d05516d4303" sys_domain="global" table="x_1174267_solici_0_auditoria" version="3" view="workspace-solicitação-de-crédito-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_id>7376c3b447bbb11008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_solici_0_auditoria" sys_domain="global" view="f57643b458bbb110faee4e990dcb010c">3f7683b447bbb11008334d05516d4303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_id>7776c3b447bbb11008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_solici_0_auditoria" sys_domain="global" view="f57643b458bbb110faee4e990dcb010c">3f7683b447bbb11008334d05516d4303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>valor_do_credito</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_id>7b76c3b447bbb11008334d05516d4354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_solici_0_auditoria" sys_domain="global" view="f57643b458bbb110faee4e990dcb010c">3f7683b447bbb11008334d05516d4303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantidade_de_parcelas</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_id>7b76c3b447bbb11008334d05516d4355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_solici_0_auditoria" sys_domain="global" view="f57643b458bbb110faee4e990dcb010c">3f7683b447bbb11008334d05516d4303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitcao_de_credito</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_id>7f76c3b447bbb11008334d05516d4354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1174267_solici_0_auditoria" sys_domain="global" view="f57643b458bbb110faee4e990dcb010c">3f7683b447bbb11008334d05516d4303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1174267_solici_0_auditoria</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-15 16:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f7683b447bbb11008334d05516d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1174267_solici_0_auditoria</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+            <sys_update_name>sys_ui_section_3f7683b447bbb11008334d05516d4303</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-15 16:34:41</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Solicitação de Crédito 0" name="workspace-solicitação-de-crédito-0">f57643b458bbb110faee4e990dcb010c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

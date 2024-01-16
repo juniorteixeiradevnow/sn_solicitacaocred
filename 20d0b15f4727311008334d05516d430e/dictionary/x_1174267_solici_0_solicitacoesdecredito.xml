@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9941795f4727311008334d05516d43ce" extends="task" label="Solicitações de Crédito" max_length="40" name="x_1174267_solici_0_solicitacoesdecredito" text_index="true" type="collection">
+        <element label="Agencia" max_length="40" name="agencia" type="string"/>
+        <element label="Conta corrente" max_length="40" name="conta_corrente" type="string"/>
+        <element label="CPF" max_length="40" name="cpf" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Endereço" max_length="1000" name="endereco" type="string"/>
+        <element label="Nome" max_length="32" name="nome" reference="sys_user" type="reference"/>
+        <element label="Parcelas" max_length="40" name="parcelas" type="integer"/>
+        <element label="RG" max_length="40" name="rg" type="string"/>
+        <element choice="1" label="Sexo" max_length="40" name="sexo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Masculino" sequence="0" value="masculino"/>
+                <element inactive_on_update="false" label="Feminino" sequence="1" value="feminino"/>
+            </choice>
+        </element>
+        <element label="Telefone" max_length="40" name="telefone" type="string"/>
+        <element label="Valor do Crédito" max_length="40" name="valor_do_credito" type="float"/>
+    </element>
+</database>

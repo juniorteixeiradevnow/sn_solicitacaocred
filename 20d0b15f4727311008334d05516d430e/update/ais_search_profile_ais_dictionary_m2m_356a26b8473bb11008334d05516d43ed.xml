@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_1174267_solici_0_solicitao_de_crdito_workspace_search_profile_default_spell_check_dictionary">256a26b8473bb11008334d05516d43ea</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="solicitao-de-crdito-workspace Search Profile">506aa2b87f3bb110c3ce4f92c38795e0</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:56</sys_created_on>
+        <sys_id>356a26b8473bb11008334d05516d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1174267_solici_0_solicitao_de_crdito_workspace_search_profile_default_spell_check_dictionary.solicitao-de-crdito-workspace Search Profile</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_356a26b8473bb11008334d05516d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:56</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="DELETE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="">dc6aa2b82e3bb110b8056cf73df686e0</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:51</sys_created_on>
+        <sys_id>946aa2b8d63bb11034c3c1ae53ca00c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_946aa2b8d63bb11034c3c1ae53ca00c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:51</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_registry_m2m_category_946aa2b8d63bb11034c3c1ae53ca00c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category"><sys_ux_registry_m2m_category action="INSERT_OR_UPDATE"><experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category><page_registry display_value="">dc6aa2b82e3bb110b8056cf73df686e0</page_registry><sys_class_name>sys_ux_registry_m2m_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-15 14:31:51</sys_created_on><sys_id>946aa2b8d63bb11034c3c1ae53ca00c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_registry_m2m_category_946aa2b8d63bb11034c3c1ae53ca00c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-15 14:31:51</sys_updated_on></sys_ux_registry_m2m_category></record_update>]]></payload>
+        <payload_hash>-1776281686</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 16:32:36</sys_created_on>
+        <sys_id>1506877447bbb11008334d05516d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0df7bec00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 16:32:36</sys_updated_on>
+        <type>UX Application Category M2M</type>
+        <update_guid>d1068774e3bbb110ca41abb9fd38c14e</update_guid>
+        <update_guid_history>d1068774e3bbb110ca41abb9fd38c14e:-1776281686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 16:32:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_registry_m2m_category">sys_ux_registry_m2m_category</sys_db_object>
+        <sys_id>20a87634f49c4fe1b2d905d54db61659</sys_id>
+        <sys_metadata>946aa2b8d63bb11034c3c1ae53ca00c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_registry_m2m_category_946aa2b8d63bb11034c3c1ae53ca00c0</sys_update_name>
+        <sys_update_version display_value="sys_ux_registry_m2m_category_946aa2b8d63bb11034c3c1ae53ca00c0">1506877447bbb11008334d05516d434e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 16:32:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

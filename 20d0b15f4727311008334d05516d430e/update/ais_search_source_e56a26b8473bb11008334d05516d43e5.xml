@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_1174267_solici_0_solicitacoesdecredito</datasource>
+        <name>Solicitações de Crédito</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 14:31:56</sys_created_on>
+        <sys_id>e56a26b8473bb11008334d05516d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitações de Crédito</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>ais_search_source_e56a26b8473bb11008334d05516d43e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 14:31:56</sys_updated_on>
+    </ais_search_source>
+</record_update>

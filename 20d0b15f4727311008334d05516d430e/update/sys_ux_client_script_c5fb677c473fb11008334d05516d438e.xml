@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">7d7643b44ebbb110bb520b8da6bfcb06</macroponent>
+        <name>Filter ssign</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) => {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 19:18:19</sys_created_on>
+        <sys_id>c5fb677c473fb11008334d05516d438e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Filter ssign</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_client_script_c5fb677c473fb11008334d05516d438e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 19:19:08</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

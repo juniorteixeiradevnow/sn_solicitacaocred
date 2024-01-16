@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">7d7643b44ebbb110bb520b8da6bfcb06</macroponent>
+        <name>filter</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) => {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 18:23:49</sys_created_on>
+        <sys_id>aa7fdb30473fb11008334d05516d4385</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>filter</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_client_script_aa7fdb30473fb11008334d05516d4385</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 18:36:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_ux_client_script_aa7fdb30473fb11008334d05516d4385</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;7d7643b44ebbb110bb520b8da6bfcb06&lt;/macroponent&gt;&lt;name&gt;filter&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) =&gt; {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-15 18:23:49&lt;/sys_created_on&gt;&lt;sys_id&gt;aa7fdb30473fb11008334d05516d4385&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;filter&lt;/sys_name&gt;&lt;sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0"&gt;20d0b15f4727311008334d05516d430e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Solicitação de Crédito"&gt;20d0b15f4727311008334d05516d430e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_aa7fdb30473fb11008334d05516d4385&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-15 18:36:45&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1317398626</payload_hash>
+        <record_name>filter</record_name>
+        <reverted_from/>
+        <source>64d0b15f4727311008334d05516d4310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 18:36:45</sys_created_on>
+        <sys_id>84726334473fb11008334d05516d431a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0e696a0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 18:36:45</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4c726334ef3fb110144122ec116a0b19</update_guid>
+        <update_guid_history>4c726334ef3fb110144122ec116a0b19:-1317398626,5c706f70703fb1109a97c21f0051da3c:-479808898,ae7fdb30443fb1109dae7d878d8a9688:1301172153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 19:18:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>7925e9647430473487ba5ae818636fa4</sys_id>
+        <sys_metadata>aa7fdb30473fb11008334d05516d4385</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_aa7fdb30473fb11008334d05516d4385</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_aa7fdb30473fb11008334d05516d4385">84726334473fb11008334d05516d431a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 19:18:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

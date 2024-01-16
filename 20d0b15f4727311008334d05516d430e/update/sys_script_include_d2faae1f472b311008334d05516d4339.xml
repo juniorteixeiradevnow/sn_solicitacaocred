@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1174267_solici_0.AuditoryCred</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AuditoryCred</name>
+        <script><![CDATA[var AuditoryCred = Class.create();
+AuditoryCred.prototype = {
+    initialize: function() {
+    },
+
+	insertCred: function(name, idcred, valorcred, parcela){
+		var obj = new GlideRecord('x_1174267_solici_0_auditoria');
+		obj.initialize();
+		obj.nome = name;
+		obj.solicitcao_de_credito = idcred;
+		obj.valor_do_credito = valorcred;
+		obj.quantidade_de_parcelas = parcela;
+		obj.insert();
+
+	},
+
+    type: 'AuditoryCred'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 22:48:55</sys_created_on>
+        <sys_id>d2faae1f472b311008334d05516d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AuditoryCred</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_script_include_d2faae1f472b311008334d05516d4339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 22:48:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

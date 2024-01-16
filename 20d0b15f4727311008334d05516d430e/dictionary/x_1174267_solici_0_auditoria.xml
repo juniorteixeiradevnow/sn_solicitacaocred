@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67b926db472b311008334d05516d4300" label="Auditoria" max_length="40" name="x_1174267_solici_0_auditoria" text_index="true" type="collection">
+        <element label="Nome" max_length="32" name="nome" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantidade de Parcelas" max_length="40" name="quantidade_de_parcelas" type="integer"/>
+        <element label="Solicitção de Crédito" max_length="40" name="solicitcao_de_credito" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="Valor do Crédito" max_length="40" name="valor_do_credito" type="float"/>
+        <index name="index">
+            <element name="nome"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

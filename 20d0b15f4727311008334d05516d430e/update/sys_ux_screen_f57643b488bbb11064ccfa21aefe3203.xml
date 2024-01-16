@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Solicitação de Crédito Config">b17643b4ecbbb1100a1c9e580a429b17</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Search results">72e447ee0b621010a8b1c96237673a7e</macroponent>
+        <macroponent_config/>
+        <name>Search Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Search">717643b40bbbb110a69ba181b8362109</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-15 16:34:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f57643b488bbb11064ccfa21aefe3203</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_screen_f57643b488bbb11064ccfa21aefe3203</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-15 16:34:34</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=f57643b488bbb11064ccfa21aefe3203"/>
+</record_update>
