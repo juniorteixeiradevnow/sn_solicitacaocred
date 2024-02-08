@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1174267_solici_0.EnviarMsgWhats</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EnviarMsgWhats</name>
+        <script><![CDATA[var EnviarMsgWhats = Class.create();
+EnviarMsgWhats.prototype = {
+    initialize: function() {
+    },
+
+	sendMsg: function (msg){
+
+
+		var req = new sn_ws.RESTMessageV2();
+		req.setEndpoint("https://pp4pml.api.infobip.com/whatsapp/1/message/text");
+		req.setHttpMethod('POST');
+
+		//Cabeçalho da requisição
+		req.setRequestHeader('Content-Type','application/json');
+		req.setRequestHeader('Accept','application/json');
+		req.setRequestHeader('Authorization','App 33a897f2c37d53539f8cfb052cdf9015-07ecbd3b-eae0-4277-ac2f-2f61c87fa610');
+
+		//Payload
+		var myObj = {
+		"from": "447860099299",
+		"to": "5588988962662",
+		"content": {
+			"text": msg
+		}
+		};
+
+		//É necessário converter o objeto para string antes de enviar.
+		req.setRequestBody(JSON.stringify(myObj));
+
+		//Execute the request
+		req.execute();
+
+	},
+
+
+
+    type: 'EnviarMsgWhats'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 16:42:46</sys_created_on>
+        <sys_id>3d54732a4740021008334d05516d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnviarMsgWhats</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_script_include_3d54732a4740021008334d05516d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 16:42:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

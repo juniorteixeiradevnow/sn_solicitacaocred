@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Twilio Credentials</name>
+        <password>﷞﷟﷒8389ca5547e3311008334d05516d436e﷬﷔1﷬﷭rGBYy_PmRadZD-3G-2DJUA==B_k2vF0IVWzNAxgEfpuaZ4ToGdCogx0CnW9grR-XqXj4i_hHjQjjeNGgCSTpnfgT﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:02:48</sys_created_on>
+        <sys_id>05fd1b2e4700021008334d05516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Twilio Credentials</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_05fd1b2e4700021008334d05516d4311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:02:48</sys_updated_on>
+        <username>ACcf66dd3cb4fefbdf0151f67084692f42</username>
+    </sys_auth_profile_basic>
+</record_update>

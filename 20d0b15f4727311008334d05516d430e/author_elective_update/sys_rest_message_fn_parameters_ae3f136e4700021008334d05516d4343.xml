@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>From</name>
+        <rest_message_function display_value="Default POST">404d1fea4700021008334d05516d432c</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:08:02</sys_created_on>
+        <sys_id>ae3f136e4700021008334d05516d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>From</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_ae3f136e4700021008334d05516d4343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:08:02</sys_updated_on>
+        <type>string</type>
+        <value>whatsapp:+14155238886</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>811543badb26799005ef1729139619f6</instance_id>
+        <instance_name>dev218783</instance_name>
+        <name>sys_rest_message_fn_parameters_ae3f136e4700021008334d05516d4343</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>From</name><rest_message_function display_value="Default POST">404d1fea4700021008334d05516d432c</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-02 15:08:02</sys_created_on><sys_id>ae3f136e4700021008334d05516d4343</sys_id><sys_mod_count>0</sys_mod_count><sys_name>From</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_rest_message_fn_parameters_ae3f136e4700021008334d05516d4343</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-02 15:08:02</sys_updated_on><type>string</type><value>whatsapp:+14155238886</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>-896168456</payload_hash>
+        <record_name>From</record_name>
+        <reverted_from/>
+        <source>6ae67f85473ff11008334d05516d4365</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:08:02</sys_created_on>
+        <sys_id>8a4f5f6e4700021008334d05516d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d6a5cc8fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:08:02</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>ce4f5f6e7d0002107132013bacefcfc9</update_guid>
+        <update_guid_history>ce4f5f6e7d0002107132013bacefcfc9:-896168456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-02 15:08:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>1fe7aa17ba1c4e3292755e75673d6ea4</sys_id>
+        <sys_metadata>ae3f136e4700021008334d05516d4343</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>From</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent display_value="Default POST">404d1fea4700021008334d05516d432c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_ae3f136e4700021008334d05516d4343</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_ae3f136e4700021008334d05516d4343">8a4f5f6e4700021008334d05516d43ca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-02 15:08:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
