@@ -6,11 +6,14 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>-1</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>inserirdadosparaauditoria</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iddasolicitacao}}","label":"action➛iddasolicitacao","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.valordocred}}","label":"action➛valordocred","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parcelas}}","label":"action➛parcelas","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9f3643ec-7eac-4974-af62-526c44ad4b5a].response}}","label":"step➛Script step➛Response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
@@ -27,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>16cdee9f472b311008334d05516d4368</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>InserirDadosParaAuditoria</sys_name>
         <sys_overrides/>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
@@ -35,7 +38,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_16cdee9f472b311008334d05516d4368</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -124,10 +127,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>bc9fea53476b311008334d05516d434b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:19</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc9fea53476b311008334d05516d434b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -152,15 +155,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>749fea53476b311008334d05516d4371</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:19</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     var obj = new AuditoryCred();&#13;
-    obj.insertCred(inputs.name, inputs.iddasolicitacao, inputs.valordocred, inputs.parcelas)&#13;
-&#13;
-    return true;&#13;
+    obj.insertCred(inputs.name, inputs.iddasolicitacao, inputs.valordocred, inputs.parcelas);&#13;
 &#13;
 // ... code ...&#13;
 })(inputs, outputs);&#13;
@@ -196,18 +197,6 @@
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=bc9fea53476b311008334d05516d434b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>bc9fea53476b311008334d05516d434b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 23:03:38</sys_created_on>
-        <sys_id>7c9fea53476b311008334d05516d4370</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>iddasolicitacao</field>
         <id>bc9fea53476b311008334d05516d434b</id>
@@ -248,11 +237,11 @@
         <field>script</field>
         <id>bc9fea53476b311008334d05516d434b</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 23:03:38</sys_created_on>
-        <sys_id>309fea53476b311008334d05516d4371</sys_id>
+        <sys_created_on>2024-02-21 00:32:19</sys_created_on>
+        <sys_id>170d8a6497e846105e9fb680f053afb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:19</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -335,14 +324,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>309fea53476b311008334d05516d4362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -418,14 +407,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>3c9fea53476b311008334d05516d4366</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -501,14 +490,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>b49fea53476b311008334d05516d4364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -584,14 +573,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:38</sys_created_on>
         <sys_id>f09fea53476b311008334d05516d435f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:38</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1290,14 +1279,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:44</sys_created_on>
         <sys_id>ca9f2e53476b311008334d05516d4378</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:44</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1492,18 +1481,18 @@
     <sys_hub_action_plan action="delete_multiple" query="action_id=16cdee9f472b311008334d05516d4368^sys_idNOT INf69f6e53476b311008334d05516d438b"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="InserirDadosParaAuditoria">16cdee9f472b311008334d05516d4368</action_id>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f69f6e53476b311008334d05516d438b","name":"plan","plan_signature":null}}</plan>
-        <snapshot>ae9f6e53476b311008334d05516d4307</snapshot>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f69f6e53476b311008334d05516d438b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>411d0e6497e846105e9fb680f053af66</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f69f6e53476b311008334d05516d438b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:47</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:26</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1511,11 +1500,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>-1</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>inserirdadosparaauditoria</internal_name>
         <label_cache>[{"name":"{{action.name}}","label":"action➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.iddasolicitacao}}","label":"action➛iddasolicitacao","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.valordocred}}","label":"action➛valordocred","type":"action","ref":"","reference_display":"","base_type":"float","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.parcelas}}","label":"action➛parcelas","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9f3643ec-7eac-4974-af62-526c44ad4b5a].response}}","label":"step➛Script step➛Response","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
@@ -1530,7 +1522,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a9f2e53476b311008334d05516d43b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1538,7 +1530,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:44</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1627,10 +1619,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:45</sys_created_on>
         <sys_id>5a9f2e53476b311008334d05516d43ca</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a9f2e53476b311008334d05516d43ca"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1669,15 +1661,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:45</sys_created_on>
         <sys_id>e29f2e53476b311008334d05516d43e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 &#13;
     var obj = new AuditoryCred();&#13;
-    obj.insertCred(inputs.name, inputs.iddasolicitacao, inputs.valordocred, inputs.parcelas)&#13;
-&#13;
-    return true;&#13;
+    obj.insertCred(inputs.name, inputs.iddasolicitacao, inputs.valordocred, inputs.parcelas);&#13;
 &#13;
 // ... code ...&#13;
 })(inputs, outputs);&#13;
@@ -1699,18 +1689,6 @@
         <variable display_value="parcelas">da9f2e53476b311008334d05516d43d8</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5a9f2e53476b311008334d05516d43ca"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5a9f2e53476b311008334d05516d43ca</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 23:03:45</sys_created_on>
-        <sys_id>ea9f2e53476b311008334d05516d43e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>iddasolicitacao</field>
         <id>5a9f2e53476b311008334d05516d43ca</id>
@@ -1751,11 +1729,11 @@
         <field>script</field>
         <id>5a9f2e53476b311008334d05516d43ca</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 23:03:45</sys_created_on>
-        <sys_id>ae9f2e53476b311008334d05516d43e3</sys_id>
+        <sys_created_on>2024-02-21 00:32:25</sys_created_on>
+        <sys_id>b01d0e6497e846105e9fb680f053af58</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -2706,14 +2684,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:03:45</sys_created_on>
         <sys_id>229f2e53476b311008334d05516d43f1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 23:03:45</sys_updated_on>
+        <sys_updated_on>2024-02-21 00:32:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2995,6 +2973,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>16cdee9f472b311008334d05516d4368</sys_id>
         <latest_snapshot>1a9f2e53476b311008334d05516d43b5</latest_snapshot>
-        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-01-17-2024_01-25-2024_1625.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

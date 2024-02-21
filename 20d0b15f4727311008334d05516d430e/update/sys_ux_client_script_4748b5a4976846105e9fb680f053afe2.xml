@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Tratamento Solicitações">074831a4976846105e9fb680f053af97</macroponent>
+        <name>ListMenu Toggle</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const listPreference = api.state.listMenuOpenPreference;
+    const open = event.payload.listMenuOpen;
+
+    api.setState('listMenuOpen', open);
+    api.setState('listDisplayPanes', open? 'both': 'right');
+ 
+    api.data.setListPreference.execute({
+        'name': listPreference,
+        'value': open
+    });    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 23:01:38</sys_created_on>
+        <sys_id>4748b5a4976846105e9fb680f053afe2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ListMenu Toggle</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_client_script_4748b5a4976846105e9fb680f053afe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 23:01:38</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

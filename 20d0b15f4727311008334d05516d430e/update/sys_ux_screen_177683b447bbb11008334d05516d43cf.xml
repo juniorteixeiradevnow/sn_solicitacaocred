@@ -3,49 +3,52 @@
         <active>true</active>
         <app_config display_value="Solicitação de Crédito Config">b17643b4ecbbb1100a1c9e580a429b17</app_config>
         <description/>
-        <event_mappings>[ ]</event_mappings>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
         <macroponent display_value="Solicitações de Crédito Record Page">937683b447bbb11008334d05516d43af</macroponent>
         <macroponent_config>{
-  "views" : {
-    "type" : "JSON_LITERAL",
-    "value" : ""
-  },
-  "selectedTabIndex" : {
-    "type" : "JSON_LITERAL",
-    "value" : 0
-  },
-  "label" : {
-    "type" : "TRANSLATION_LITERAL",
-    "value" : {
-      "code" : null,
-      "message" : "",
-      "comment" : ""
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "comment": "",
+            "message": ""
+        }
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "selectedTabIndex": {
+        "type": "JSON_LITERAL",
+        "value": 0
+    },
+    "views": {
+        "type": "JSON_LITERAL",
+        "value": ""
     }
-  },
-  "bare" : {
-    "type" : "JSON_LITERAL",
-    "value" : true
-  },
-  "scrollable" : {
-    "type" : "JSON_LITERAL",
-    "value" : "y"
-  },
-  "headerLevel" : {
-    "type" : "JSON_LITERAL",
-    "value" : "1"
-  },
-  "headingOnlyVisibleToScreenReaders" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  },
-  "interceptNotifications" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  },
-  "propagateNotifications" : {
-    "type" : "JSON_LITERAL",
-    "value" : false
-  }
 }</macroponent_config>
         <name>Solicitações de Crédito Record Page</name>
         <order>100</order>
@@ -60,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>177683b447bbb11008334d05516d43cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Solicitações de Crédito Record Page</sys_name>
         <sys_overrides/>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
@@ -68,7 +71,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name>sys_ux_screen_177683b447bbb11008334d05516d43cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-15 16:34:39</sys_updated_on>
+        <sys_updated_on>2024-02-20 23:04:12</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=177683b447bbb11008334d05516d43cf"/>
 </record_update>
