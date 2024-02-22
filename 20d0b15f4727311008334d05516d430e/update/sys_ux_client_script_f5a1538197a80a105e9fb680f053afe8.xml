@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Tratamento Solicitações ">bda19f4197a80a105e9fb680f053afb3</macroponent>
+        <name>List Modal</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({
+        api,
+        event,
+        imports,
+        helpers
+    }) {
+    
+    const { name, payload: { route, fields, params, size = 'md', ariaLabel }} = event;
+    
+    if (name === 'LIST#CLOSE_MODAL')
+        helpers.modal.close();
+    
+    else if (name === 'LIST#OPEN_MODAL') {
+        if (!route)
+            return;
+            
+        api.setState('bare', true);
+        api.setState('displayOptions', { size: size, label: ariaLabel });
+        api.setState('contents', {
+            route: route,
+            fields: fields,
+            params: params
+        });
+    }
+    
+}]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:49:00</sys_created_on>
+        <sys_id>f5a1538197a80a105e9fb680f053afe8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>List Modal</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_client_script_f5a1538197a80a105e9fb680f053afe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:49:00</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

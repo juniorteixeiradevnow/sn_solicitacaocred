@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b01aa20676c4610ecc90a85a75be688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>m2m_app_config_theme_3b01aa20676c4610ecc90a85a75be688</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:44</sys_updated_on>
+        <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
+        <ux_app_configuration display_value="Tratamento solicitação cred App Config">3301aa20ed6c4610fedcd46030462f8b</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>m2m_app_config_theme_3b01aa20676c4610ecc90a85a75be688</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3b01aa20676c4610ecc90a85a75be688</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>m2m_app_config_theme_3b01aa20676c4610ecc90a85a75be688</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:44</sys_updated_on><theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme><ux_app_configuration display_value="Tratamento solicitação cred App Config">3301aa20ed6c4610fedcd46030462f8b</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-2002398330</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:42</sys_created_on>
+        <sys_id>5f256228976c46105e9fb680f053af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc9745c290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:42</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>1f256228096c4610791183399f59ee6a</update_guid>
+        <update_guid_history>ca0562e4016c46103d932c60c9466567:261871743,4a0562e4116c4610586effc5db989964:-198599669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a231174197a80a105e9fb680f053af7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:08</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>16c7ac35929e42b4854d8619989d1810</sys_id>
+        <sys_metadata>3b01aa20676c4610ecc90a85a75be688</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_3b01aa20676c4610ecc90a85a75be688</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_3b01aa20676c4610ecc90a85a75be688">5f256228976c46105e9fb680f053af6a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

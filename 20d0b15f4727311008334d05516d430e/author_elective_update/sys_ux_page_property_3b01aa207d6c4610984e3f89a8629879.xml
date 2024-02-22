@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Contains references to global search configurations to be consumed by search components</description>
+        <name>global_search_configurations</name>
+        <page display_value="Tratamento solicitação cred">3301aa20dc6c461023f42fa35f5f468a</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3b01aa207d6c4610984e3f89a8629879</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_page_property_3b01aa207d6c4610984e3f89a8629879</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:44</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1174267_solici_0.3301aa20dc6c461023f42fa35f5f468a.root.global_search_configurations</unique_name>
+        <value>{&#13;
+    "globalSearchViewConfigId": "97a574ea53c0130084acddeeff7b12a6",&#13;
+"globalSearchRoute": "search"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=3b01aa207d6c4610984e3f89a8629879"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_page_property_3b01aa207d6c4610984e3f89a8629879</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Contains references to global search configurations to be consumed by search components</description><name>global_search_configurations</name><page display_value="Tratamento solicitação cred">3301aa20dc6c461023f42fa35f5f468a</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3b01aa207d6c4610984e3f89a8629879</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_page_property_3b01aa207d6c4610984e3f89a8629879</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:44</sys_updated_on><type>json</type><unique_name>x_1174267_solici_0.3301aa20dc6c461023f42fa35f5f468a.root.global_search_configurations</unique_name><value>{&#13;
+    "globalSearchViewConfigId": "97a574ea53c0130084acddeeff7b12a6",&#13;
+"globalSearchRoute": "search"&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=3b01aa207d6c4610984e3f89a8629879"/></record_update>]]></payload>
+        <payload_hash>-1053603235</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:45</sys_created_on>
+        <sys_id>3f25a228976c46105e9fb680f053afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97465410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:45</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>fb25a228206c461061bade2a2cb83cbc</update_guid>
+        <update_guid_history>0a0522e4b86c46106b5370f5baaf19c5:-125120859,fd0522e47b6c461095be3ac6e1af06c2:247275569</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>b6fb7d93adb94fee9dde5e45eecdf0f1</sys_id>
+        <sys_metadata>3b01aa207d6c4610984e3f89a8629879</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3b01aa207d6c4610984e3f89a8629879</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3b01aa207d6c4610984e3f89a8629879">3f25a228976c46105e9fb680f053afbc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

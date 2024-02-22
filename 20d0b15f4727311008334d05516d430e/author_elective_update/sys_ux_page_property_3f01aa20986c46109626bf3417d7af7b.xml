@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="Tratamento solicitação cred">3301aa20dc6c461023f42fa35f5f468a</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3f01aa20986c46109626bf3417d7af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_page_property_3f01aa20986c46109626bf3417d7af7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:44</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1174267_solici_0.3301aa20dc6c461023f42fa35f5f468a.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=3f01aa20986c46109626bf3417d7af7b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_page_property_3f01aa20986c46109626bf3417d7af7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="Tratamento solicitação cred">3301aa20dc6c461023f42fa35f5f468a</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3f01aa20986c46109626bf3417d7af7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_page_property_3f01aa20986c46109626bf3417d7af7b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:44</sys_updated_on><type>json</type><unique_name>x_1174267_solici_0.3301aa20dc6c461023f42fa35f5f468a.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=3f01aa20986c46109626bf3417d7af7b"/></record_update>]]></payload>
+        <payload_hash>1103724627</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:45</sys_created_on>
+        <sys_id>3725a228976c46105e9fb680f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97465510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:45</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>f325a228276c461076bdd9845ea71bcb</update_guid>
+        <update_guid_history>c20522e4d66c4610770cac0ad0b798ca:-58453261,8a0522e4756c46106c3ef4d9e9f3b5c7:799298687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1ee46a8a348a4484a4f6662db4d9de24</sys_id>
+        <sys_metadata>3f01aa20986c46109626bf3417d7af7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3f01aa20986c46109626bf3417d7af7b</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3f01aa20986c46109626bf3417d7af7b">3725a228976c46105e9fb680f053afcb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

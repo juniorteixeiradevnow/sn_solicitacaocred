@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:57</sys_created_on>
+        <sys_id>aa619b4197a80a105e9fb680f053afdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1174267.tratamento-solicitaes.*.x_1174267_solici_0.admin</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_security_acl display_value="x.1174267.tratamento-solicitaes.*">e9611b414aa80a100174c0d7907a77ed</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_aa619b4197a80a105e9fb680f053afdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:57</sys_updated_on>
+        <sys_user_role display_value="x_1174267_solici_0.admin" name="x_1174267_solici_0.admin">20d0b15f4727311008334d05516d4315</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

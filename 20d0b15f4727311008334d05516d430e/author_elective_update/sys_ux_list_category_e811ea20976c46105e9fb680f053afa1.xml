@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Tratamento solicitação cred_menu_config">a011ea20976c46105e9fb680f053af9f</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e811ea20976c46105e9fb680f053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auditoria</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_list_category_e811ea20976c46105e9fb680f053afa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:46</sys_updated_on>
+        <title>Auditoria</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_list_category_e811ea20976c46105e9fb680f053afa1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="Tratamento solicitação cred_menu_config">a011ea20976c46105e9fb680f053af9f</configuration><description/><order>100</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e811ea20976c46105e9fb680f053afa1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Auditoria</sys_name><sys_overrides/><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_list_category_e811ea20976c46105e9fb680f053afa1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:46</sys_updated_on><title>Auditoria</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1681596679</payload_hash>
+        <record_name>Auditoria</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:44</sys_created_on>
+        <sys_id>eb25a228976c46105e9fb680f053afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97462ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:44</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>6811ea20336c4610e89e01726cc946a3</update_guid>
+        <update_guid_history>6811ea20336c4610e89e01726cc946a3:-1681596679,710522e4a76c46101e0c681a27ee6fac:-1928567803,6811ea20336c4610e89e01726cc946a3:-1681596679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>51fa86468e96489988b64adc3a393211</sys_id>
+        <sys_metadata>e811ea20976c46105e9fb680f053afa1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auditoria</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_e811ea20976c46105e9fb680f053afa1</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_e811ea20976c46105e9fb680f053afa1">eb25a228976c46105e9fb680f053afaa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

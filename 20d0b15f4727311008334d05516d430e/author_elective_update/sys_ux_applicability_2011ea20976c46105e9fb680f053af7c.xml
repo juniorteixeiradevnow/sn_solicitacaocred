@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1174267_solici_0.Audience for app tratamento-solicitao-cred</api_name>
+        <description/>
+        <name>Audience for app tratamento-solicitao-cred</name>
+        <role_names/>
+        <roles>20d0b15f4727311008334d05516d4315,24d0b15f4727311008334d05516d4319</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2011ea20976c46105e9fb680f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app tratamento-solicitao-cred</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_applicability_2011ea20976c46105e9fb680f053af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:46</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_applicability_2011ea20976c46105e9fb680f053af7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1174267_solici_0.Audience for app tratamento-solicitao-cred</api_name><description/><name>Audience for app tratamento-solicitao-cred</name><role_names/><roles>20d0b15f4727311008334d05516d4315,24d0b15f4727311008334d05516d4319</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2011ea20976c46105e9fb680f053af7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app tratamento-solicitao-cred</sys_name><sys_overrides/><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_applicability_2011ea20976c46105e9fb680f053af7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:46</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>1781021614</payload_hash>
+        <record_name>Audience for app tratamento-solicitao-cred</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:43</sys_created_on>
+        <sys_id>a725a228976c46105e9fb680f053af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97460390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:43</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>2c11ea20c16c46107c8977309009147d</update_guid>
+        <update_guid_history>2c11ea20c16c46107c8977309009147d:1781021614,e905eea45d6c4610627a3d211786fbda:-739072070,2c11ea20c16c46107c8977309009147d:1781021614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>56a7c6069a234f5aa9a69378d4430ec4</sys_id>
+        <sys_metadata>2011ea20976c46105e9fb680f053af7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app tratamento-solicitao-cred</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_2011ea20976c46105e9fb680f053af7c</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_2011ea20976c46105e9fb680f053af7c">a725a228976c46105e9fb680f053af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

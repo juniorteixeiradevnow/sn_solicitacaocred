@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Tratamento solicitação cred App Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:44</sys_created_on>
+        <sys_id>3301aa20ed6c4610fedcd46030462f8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tratamento solicitação cred App Config</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_app_config_3301aa20ed6c4610fedcd46030462f8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:44</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=3301aa20ed6c4610fedcd46030462f8b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_app_config_3301aa20ed6c4610fedcd46030462f8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Tratamento solicitação cred App Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:44</sys_created_on><sys_id>3301aa20ed6c4610fedcd46030462f8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tratamento solicitação cred App Config</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_app_config_3301aa20ed6c4610fedcd46030462f8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:44</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=3301aa20ed6c4610fedcd46030462f8b"/></record_update>]]></payload>
+        <payload_hash>-894208670</payload_hash>
+        <record_name>Tratamento solicitação cred App Config</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:43</sys_created_on>
+        <sys_id>eb25a228976c46105e9fb680f053af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97460910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:43</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>ab25a228f56c46107f27e350e5e61c41</update_guid>
+        <update_guid_history>420562e49d6c4610e2dfe9aa15bc386a:580819670,460562e4296c461035e3e4f89358272a:-894208670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>4ed8609d1c474afc9c1c847557276890</sys_id>
+        <sys_metadata>3301aa20ed6c4610fedcd46030462f8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tratamento solicitação cred App Config</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_3301aa20ed6c4610fedcd46030462f8b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_3301aa20ed6c4610fedcd46030462f8b">eb25a228976c46105e9fb680f053af41</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

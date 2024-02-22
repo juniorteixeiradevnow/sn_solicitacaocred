@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Tratamento solicitação cred_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 01:59:46</sys_created_on>
+        <sys_id>a011ea20976c46105e9fb680f053af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tratamento solicitação cred_menu_config</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_a011ea20976c46105e9fb680f053af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 01:59:46</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_ux_list_menu_config_a011ea20976c46105e9fb680f053af9f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>Tratamento solicitação cred_menu_config</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-21 01:59:46</sys_created_on><sys_id>a011ea20976c46105e9fb680f053af9f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tratamento solicitação cred_menu_config</sys_name><sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package><sys_policy/><sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope><sys_update_name>sys_ux_list_menu_config_a011ea20976c46105e9fb680f053af9f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-21 01:59:46</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>-1524818544</payload_hash>
+        <record_name>Tratamento solicitação cred_menu_config</record_name>
+        <reverted_from/>
+        <source>ba25eee4976c46105e9fb680f053aff5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 02:17:44</sys_created_on>
+        <sys_id>6725a228976c46105e9fb680f053afac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc97462b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 02:17:44</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>2811ea20236c461004a28853abd439a0</update_guid>
+        <update_guid_history>2811ea20236c461004a28853abd439a0:-1524818544,750522e4f46c4610ac7c763919aedfb0:1799848988,2811ea20236c461004a28853abd439a0:-1524818544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 18:47:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>1718c2e9699042a89c50633cf7a30910</sys_id>
+        <sys_metadata>a011ea20976c46105e9fb680f053af9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tratamento solicitação cred_menu_config</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_a011ea20976c46105e9fb680f053af9f</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_a011ea20976c46105e9fb680f053af9f">6725a228976c46105e9fb680f053afac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 18:47:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
