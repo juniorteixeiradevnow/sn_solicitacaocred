@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=318000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=6133000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -14,7 +14,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>flow_email</internal_name>
-        <label_cache>[{"name":"Inbound Email_1.inbound_email.body_text","label":"Trigger - Inbound Email➛Email Record➛Body text","reference":"","reference_display":"Body text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body_text","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["description"]}},{"name":"Inbound Email_1.inbound_email.body","label":"Trigger - Inbound Email➛Email Record➛Body","reference":"","reference_display":"Body","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body","usedInstances":{"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52":["emailbody"]}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome","label":"1 - Pegar Dados Email➛Nome","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["nome"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"859481c3-69a5-4122-ac28-d0d6a03c10d1"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf","label":"1 - Pegar Dados Email➛Cpf","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["cpf"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2502494c-ad27-4119-8573-5e27eb6660b4"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred","label":"1 - Pegar Dados Email➛Valor do Crédito","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["valor_do_credito"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"0b331154-8ebd-4044-8d4a-0b289438449e"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas","label":"1 - Pegar Dados Email➛Parcelas","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["parcelas"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"a98fff82-12aa-415b-91b1-75cc47eb53b8"}}]</label_cache>
+        <label_cache>[{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas","label":"1 - Pegar Dados Email➛Parcelas","reference_display":"Parcelas","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["parcelas"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a98fff82-12aa-415b-91b1-75cc47eb53b8"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred","label":"1 - Pegar Dados Email➛Valor do Crédito","reference_display":"Valor do Crédito","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["valor_do_credito"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0b331154-8ebd-4044-8d4a-0b289438449e"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf","label":"1 - Pegar Dados Email➛Cpf","reference_display":"Cpf","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["cpf"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2502494c-ad27-4119-8573-5e27eb6660b4"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome","label":"1 - Pegar Dados Email➛Nome","reference_display":"Nome","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["nome"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"859481c3-69a5-4122-ac28-d0d6a03c10d1"}},{"name":"Inbound Email_1.inbound_email.body","label":"Trigger - Inbound Email➛Email Record➛Body","reference":"","reference_display":"Body","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body","usedInstances":{"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52":["emailbody"]}},{"name":"Inbound Email_1.inbound_email.body_text","label":"Trigger - Inbound Email➛Email Record➛Body text","reference":"","reference_display":"Body text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body_text","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["description"]}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["email"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
         <master_snapshot>7008478197680a105e9fb680f053af27</master_snapshot>
         <name>FLOW EMAIL</name>
         <natlang/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3aa70f4197680a105e9fb680f053afee</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>FLOW EMAIL</sys_name>
         <sys_overrides/>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name>sys_hub_flow_3aa70f4197680a105e9fb680f053afee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:42</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:40</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3aa70f4197680a105e9fb680f053afee"/>
@@ -60,11 +60,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4508478197680a105e9fb680f053af86</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <target_table/>
     </sys_flow_email_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=3aa70f4197680a105e9fb680f053afee"/>
@@ -78,10 +78,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:06</sys_created_on>
         <sys_id>1dd74b4197680a105e9fb680f053afd5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:42</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:37</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -194,14 +194,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>3408078197680a105e9fb680f053afca</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -281,14 +281,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>3808078197680a105e9fb680f053afd0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -365,14 +365,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>38088f4197680a105e9fb680f053afcc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -449,14 +449,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>7808078197680a105e9fb680f053afd3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:42</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -533,14 +533,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>7c08078197680a105e9fb680f053afd9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:42</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -617,14 +617,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>b408078197680a105e9fb680f053afcd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -701,14 +701,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:52</sys_created_on>
         <sys_id>f808078197680a105e9fb680f053afd6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -741,10 +741,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:09:18</sys_created_on>
         <sys_id>1498c3c197680a105e9fb680f053afc2</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:17:29</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:48:51</sys_updated_on>
         <ui_id>f5a7eead-8f9a-4be0-b70e-0bdad85e5e52</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1498c3c197680a105e9fb680f053afc2"/>
@@ -779,10 +779,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:14</sys_created_on>
         <sys_id>6bd78f4197680a105e9fb680f053afc8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:17:29</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:48:51</sys_updated_on>
         <ui_id>db5bfbf1-8560-49d1-8e72-59c33b6b3b97</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6bd78f4197680a105e9fb680f053afc8"/>
@@ -819,11 +819,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:49</sys_created_on>
         <sys_id>37f7078197680a105e9fb680f053af8a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:34</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:32</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>nome={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome}}^cpf={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf}}^valor_do_credito={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred}}^parcelas={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas}}</value>
+        <value>nome={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome}}^cpf={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf}}^valor_do_credito={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred}}^parcelas={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas}}^email={{Inbound Email_1.from_address}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6bd78f4197680a105e9fb680f053afc8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6bd78f4197680a105e9fb680f053afc8"/>
@@ -1010,7 +1010,7 @@
         <description/>
         <flow_priority/>
         <internal_name>flow_email</internal_name>
-        <label_cache>[{"name":"Inbound Email_1.inbound_email.body_text","label":"Trigger - Inbound Email➛Email Record➛Body text","reference":"","reference_display":"Body text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body_text","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["description"]}},{"name":"Inbound Email_1.inbound_email.body","label":"Trigger - Inbound Email➛Email Record➛Body","reference":"","reference_display":"Body","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body","usedInstances":{"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52":["emailbody"]}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome","label":"1 - Pegar Dados Email➛Nome","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["nome"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"859481c3-69a5-4122-ac28-d0d6a03c10d1"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf","label":"1 - Pegar Dados Email➛Cpf","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["cpf"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"2502494c-ad27-4119-8573-5e27eb6660b4"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred","label":"1 - Pegar Dados Email➛Valor do Crédito","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["valor_do_credito"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"0b331154-8ebd-4044-8d4a-0b289438449e"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas","label":"1 - Pegar Dados Email➛Parcelas","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["parcelas"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"a98fff82-12aa-415b-91b1-75cc47eb53b8"}}]</label_cache>
+        <label_cache>[{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas","label":"1 - Pegar Dados Email➛Parcelas","reference_display":"Parcelas","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["parcelas"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a98fff82-12aa-415b-91b1-75cc47eb53b8"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred","label":"1 - Pegar Dados Email➛Valor do Crédito","reference_display":"Valor do Crédito","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["valor_do_credito"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"0b331154-8ebd-4044-8d4a-0b289438449e"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf","label":"1 - Pegar Dados Email➛Cpf","reference_display":"Cpf","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["cpf"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2502494c-ad27-4119-8573-5e27eb6660b4"}},{"name":"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome","label":"1 - Pegar Dados Email➛Nome","reference_display":"Nome","type":"string","base_type":"string","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["nome"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"859481c3-69a5-4122-ac28-d0d6a03c10d1"}},{"name":"Inbound Email_1.inbound_email.body","label":"Trigger - Inbound Email➛Email Record➛Body","reference":"","reference_display":"Body","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body","usedInstances":{"f5a7eead-8f9a-4be0-b70e-0bdad85e5e52":["emailbody"]}},{"name":"Inbound Email_1.inbound_email.body_text","label":"Trigger - Inbound Email➛Email Record➛Body text","reference":"","reference_display":"Body text","type":"string_full_utf8","base_type":"string_full_utf8","parent_table_name":"sys_email","column_name":"body_text","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["description"]}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"db5bfbf1-8560-49d1-8e72-59c33b6b3b97":["email"]},"attributes":{"test_input_hidden":"true"}}]</label_cache>
         <master>true</master>
         <name>FLOW EMAIL</name>
         <natlang/>
@@ -1027,7 +1027,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7008478197680a105e9fb680f053af27</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1035,7 +1035,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=7008478197680a105e9fb680f053af27"/>
@@ -1050,10 +1050,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>0108478197680a105e9fb680f053af7e</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1169,14 +1169,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>4908478197680a105e9fb680f053af47</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1253,14 +1253,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>4d08478197680a105e9fb680f053af37</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1337,14 +1337,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>8908478197680a105e9fb680f053af3f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1421,14 +1421,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>8d08478197680a105e9fb680f053af63</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1505,14 +1505,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>bc08478197680a105e9fb680f053af28</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1589,14 +1589,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>c508478197680a105e9fb680f053af4f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1673,14 +1673,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>cd08478197680a105e9fb680f053af6b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1713,10 +1713,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>0908478197680a105e9fb680f053af7c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <ui_id>db5bfbf1-8560-49d1-8e72-59c33b6b3b97</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0908478197680a105e9fb680f053af7c"/>
@@ -1753,11 +1753,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_id>8908478197680a105e9fb680f053af7d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>nome={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome}}^cpf={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf}}^valor_do_credito={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred}}^parcelas={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas}}</value>
+        <value>nome={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.nome}}^cpf={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.cpf}}^valor_do_credito={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.valorcred}}^parcelas={{f5a7eead-8f9a-4be0-b70e-0bdad85e5e52.parcelas}}^email={{Inbound Email_1.from_address}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0908478197680a105e9fb680f053af7c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0908478197680a105e9fb680f053af7c"/>
@@ -1777,10 +1777,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:10:41</sys_created_on>
         <sys_id>60e80fc197680a105e9fb680f053aff3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <ui_id>f5a7eead-8f9a-4be0-b70e-0bdad85e5e52</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60e80fc197680a105e9fb680f053aff3"/>
@@ -1978,17 +1978,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0d08478197680a105e9fb680f053af86","name":"plan","plan_signature":null}}</plan>
         <plan_id>3aa70f4197680a105e9fb680f053afee</plan_id>
-        <snapshot>507acf4597680a105e9fb680f053af4d</snapshot>
+        <snapshot>6e5f534997e80a105e9fb680f053af23</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-22 18:06:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d08478197680a105e9fb680f053af86</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-22 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-02-22 19:47:36</sys_updated_on>
         <trigger display_value="">4508478197680a105e9fb680f053af86</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3aa70f4197680a105e9fb680f053afee"/>

@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3558444000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch0-01-17-2024_01-25-2024_1625.zip</compiler_build>
+        <copied_from>d3460e1747a7311008334d05516d43e5</copied_from>
+        <copied_from_name>Flow de Crédito</copied_from_name>
+        <description>Workflow a ser seguido para analise de crédito</description>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>copy_of_flow_de_crdito</internal_name>
+        <label_cache>[{"name":"Created_1.current.telefone","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Telefone","reference":"","reference_display":"Telefone","type":"string","base_type":"string","usedInstances":{}},{"name":"Created_1.current.parcelas","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Parcelas","reference":"","reference_display":"Parcelas","type":"integer","base_type":"integer","usedInstances":{}},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"float","base_type":"float","usedInstances":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","usedInstances":{}},{"name":"Created_1.current.nome.sys_id","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{}},{"name":"d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state","label":"6 - Ask For Approval➛Approval State","reference":"","reference_display":"Approval State","type":"choice","base_type":"choice","usedInstances":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações de Crédito Record","reference":"x_1174267_solici_0_solicitacoesdecredito","reference_display":"Solicitações de Crédito","type":"reference","base_type":"reference","usedInstances":{"de211e5b-0d28-48db-b1a7-f4aa0a53fef3":["undefined"],"794f746d-3316-4918-9b2c-edef34c6b8e4":["undefined"]}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","usedInstances":{}},{"name":"Created_1.current.nome.name","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","usedInstances":{}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{}},{"name":"Created_1.current.nome","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","usedInstances":{"de211e5b-0d28-48db-b1a7-f4aa0a53fef3":["undefined"],"46d5e64e-59b0-474f-9e56-7e8ee3e47c55":["body4"],"794f746d-3316-4918-9b2c-edef34c6b8e4":["undefined"],"f8755a2a-5375-4dbd-8295-a0569732c883":["body4"],"f7d2e51c-5860-4160-b0a1-c2821c05519d":["undefined"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Flow de Crédito</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cf0270d97e80a105e9fb680f053afff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Flow de Crédito</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_hub_flow_9cf0270d97e80a105e9fb680f053afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN78f0670d97e80a105e9fb680f053afc6"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>Trigger de quando é criado uma solicitação</comment>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>78f0670d97e80a105e9fb680f053afc6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=78f0670d97e80a105e9fb680f053afc6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>78f0670d97e80a105e9fb680f053afc6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>3cf0670d97e80a105e9fb680f053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>78f0670d97e80a105e9fb680f053afc6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>78f0670d97e80a105e9fb680f053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9cf0270d97e80a105e9fb680f053afff^sys_idNOT INd0f0670d97e80a105e9fb680f053af02"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9cf0270d97e80a105e9fb680f053afff</id>
+        <name>Copy of Flow de Crédito</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>d0f0670d97e80a105e9fb680f053af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d0f0670d97e80a105e9fb680f053af02"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN14f0670d97e80a105e9fb680f053af10,d0f0670d97e80a105e9fb680f053af09"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</model>
+        <model_id>9cf0270d97e80a105e9fb680f053afff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>14f0670d97e80a105e9fb680f053af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=14f0670d97e80a105e9fb680f053af10"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</model>
+        <model_id>9cf0270d97e80a105e9fb680f053afff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>d0f0670d97e80a105e9fb680f053af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d0f0670d97e80a105e9fb680f053af09"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN24f0670d97e80a105e9fb680f053af63,24f0670d97e80a105e9fb680f053af71,60f0670d97e80a105e9fb680f053af22,68f0670d97e80a105e9fb680f053af2b,6cf0670d97e80a105e9fb680f053af3d,6cf0670d97e80a105e9fb680f053af85,78f0670d97e80a105e9fb680f053afc4,7cf0670d97e80a105e9fb680f053afbd,a0f0670d97e80a105e9fb680f053af6b,a4f0670d97e80a105e9fb680f053af55,a4f0670d97e80a105e9fb680f053af77,acf0670d97e80a105e9fb680f053af7e,e0f0670d97e80a105e9fb680f053af8e,ecf0670d97e80a105e9fb680f053af4e,ecf0670d97e80a105e9fb680f053af5b,ecf0670d97e80a105e9fb680f053afab,f8f0670d97e80a105e9fb680f053afb4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment>Esperando aprovação do RMA</comment>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af63</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>d316affa-5e9a-4ac2-9c44-6b834bce20e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=24f0670d97e80a105e9fb680f053af63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af63</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af63</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>60f0670d97e80a105e9fb680f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af63</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a8f0670d97e80a105e9fb680f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af63</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e4f0670d97e80a105e9fb680f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=24f0670d97e80a105e9fb680f053af63"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>2cf0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAllG[{{static.1c590685c0a8018b2a473a7159ff5d9a}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>20f0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e0f0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>24f0670d97e80a105e9fb680f053af63</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=24f0670d97e80a105e9fb680f053af63"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=24f0670d97e80a105e9fb680f053af63"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Worknotes</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>86d2568d-adb4-452c-a0eb-6170b643d0de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=24f0670d97e80a105e9fb680f053af71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af71</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>20f0670d97e80a105e9fb680f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>24f0670d97e80a105e9fb680f053af71</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>work_notes=RMA APROVOU A SOLICITAÇÃO AGUARDANDO OPERADORES DO OPENSPACE</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=24f0670d97e80a105e9fb680f053af71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>24f0670d97e80a105e9fb680f053af71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e8f0670d97e80a105e9fb680f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>24f0670d97e80a105e9fb680f053af71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>64f0670d97e80a105e9fb680f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>24f0670d97e80a105e9fb680f053af71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>28f0670d97e80a105e9fb680f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=24f0670d97e80a105e9fb680f053af71"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=24f0670d97e80a105e9fb680f053af71"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment>Pego as variaveis do record producer</comment>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>60f0670d97e80a105e9fb680f053af22</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <ui_id>25ce8e76-6e79-4826-916a-132d5fe8ff9c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=60f0670d97e80a105e9fb680f053af22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>60f0670d97e80a105e9fb680f053af22</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>bc06b9934767311008334d05516d43ef</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>60f0670d97e80a105e9fb680f053af22</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>a8f0670d97e80a105e9fb680f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>2e6bb9934767311008334d05516d43c9:item_option_new,62bbf9934767311008334d05516d43a9:item_option_new,d98cb11b4767311008334d05516d4306:item_option_new,6c2db9d74767311008334d05516d43aa:item_option_new,7b3dbd1b4767311008334d05516d43b2:item_option_new,d78d315b4767311008334d05516d4321:item_option_new,f7bdbd5b4767311008334d05516d4329:item_option_new,fc21ce9f4767311008334d05516d438c:item_option_new,c0b28e1347a7311008334d05516d43da:item_option_new,b3e14edf4767311008334d05516d437a:item_option_new,ef02821347a7311008334d05516d433b:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60f0670d97e80a105e9fb680f053af22"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>60f0670d97e80a105e9fb680f053af22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>60f0670d97e80a105e9fb680f053af22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>28f0670d97e80a105e9fb680f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>60f0670d97e80a105e9fb680f053af22</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>64f0670d97e80a105e9fb680f053af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=60f0670d97e80a105e9fb680f053af22"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=60f0670d97e80a105e9fb680f053af22"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Envio um email avisando que foi recebida a solicitação</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>f7d2e51c-5860-4160-b0a1-c2821c05519d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=68f0670d97e80a105e9fb680f053af2b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68f0670d97e80a105e9fb680f053af2b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>2cf0670d97e80a105e9fb680f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>Solicitação de Crédito Recebida!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>68f0670d97e80a105e9fb680f053af2b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=68f0670d97e80a105e9fb680f053af2b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>68f0670d97e80a105e9fb680f053af2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:c2bf96a6-4aa3-4dd3-b822-02b5af1da14d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c2bf96a6-4aa3-4dd3-b822-02b5af1da14d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Solicita&amp;ccedil;&amp;otilde;es de Cr&amp;eacute;dito Record &amp;gt; Nome"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Nome&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_c2bf96a6-4aa3-4dd3-b822-02b5af1da14d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, solicita&amp;ccedil;&amp;atilde;o recebida!!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>68f0670d97e80a105e9fb680f053af2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>e4f0670d97e80a105e9fb680f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>68f0670d97e80a105e9fb680f053af2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>60f0670d97e80a105e9fb680f053af2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=68f0670d97e80a105e9fb680f053af2b^sys_idNOT INe0f0670d97e80a105e9fb680f053af2d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>68f0670d97e80a105e9fb680f053af2b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false,"script":"undefined"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>e0f0670d97e80a105e9fb680f053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=68f0670d97e80a105e9fb680f053af2b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="SendWhatsAppMsg">d8dc769347ab311008334d05516d4319</action_type>
+        <action_type_parent display_value="SendWhatsAppMsg">bf6c3e5347ab311008334d05516d4325</action_type_parent>
+        <attributes/>
+        <comment>Mando mensagem no whatsapp avisando que soliciatação foi recebida</comment>
+        <compiled_snapshot>d8dc769347ab311008334d05516d4319</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af3d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>46d5e64e-59b0-474f-9e56-7e8ee3e47c55</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6cf0670d97e80a105e9fb680f053af3d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6cf0670d97e80a105e9fb680f053af3d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>a8f0670d97e80a105e9fb680f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value/>
+        <variable display_value="To">14dc769347ab311008334d05516d4355</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6cf0670d97e80a105e9fb680f053af3d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body4</field>
+        <id>6cf0670d97e80a105e9fb680f053af3d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>64f0670d97e80a105e9fb680f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8dc769347ab311008334d05516d4319</table>
+        <value>Olá {{Created_1.current.nome}}!! Sua solicitação de Crédito foi recebida e aguarda aprovação da nossa equipe!!</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>6cf0670d97e80a105e9fb680f053af3d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>28f0670d97e80a105e9fb680f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8dc769347ab311008334d05516d4319</table>
+        <value>{{Created_1.current.telefone}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6cf0670d97e80a105e9fb680f053af3d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6cf0670d97e80a105e9fb680f053af3d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Worknotes</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>1a9baddb-7222-4470-ba9e-898b2eed63b8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6cf0670d97e80a105e9fb680f053af85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6cf0670d97e80a105e9fb680f053af85</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6cf0670d97e80a105e9fb680f053af85</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>work_notes=GRUPO OPENSPACE LIBEROU, 
+CRÉDITO FOI LIBERADO!</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6cf0670d97e80a105e9fb680f053af85"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6cf0670d97e80a105e9fb680f053af85</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6cf0670d97e80a105e9fb680f053af85</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>acf0670d97e80a105e9fb680f053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6cf0670d97e80a105e9fb680f053af85</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>60f0670d97e80a105e9fb680f053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6cf0670d97e80a105e9fb680f053af85"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6cf0670d97e80a105e9fb680f053af85"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Update no state para closed complete</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>18</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>78f0670d97e80a105e9fb680f053afc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>52592a0c-6f23-4d36-91d8-d7ebc84fa6d6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=78f0670d97e80a105e9fb680f053afc4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>78f0670d97e80a105e9fb680f053afc4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>74f0670d97e80a105e9fb680f053afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>78f0670d97e80a105e9fb680f053afc4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>b0f0670d97e80a105e9fb680f053afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>state=3^work_notes=Solicitação recusada!</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=78f0670d97e80a105e9fb680f053afc4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>78f0670d97e80a105e9fb680f053afc4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>30f0670d97e80a105e9fb680f053afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>78f0670d97e80a105e9fb680f053afc4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>b8f0670d97e80a105e9fb680f053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>78f0670d97e80a105e9fb680f053afc4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>7cf0670d97e80a105e9fb680f053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=78f0670d97e80a105e9fb680f053afc4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=78f0670d97e80a105e9fb680f053afc4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Manda um email avisando que foi Recusado</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>7cf0670d97e80a105e9fb680f053afbd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>794f746d-3316-4918-9b2c-edef34c6b8e4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7cf0670d97e80a105e9fb680f053afbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7cf0670d97e80a105e9fb680f053afbd</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>30f0670d97e80a105e9fb680f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7cf0670d97e80a105e9fb680f053afbd</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>f0f0670d97e80a105e9fb680f053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>Solicitação de Crédito foi Recusada</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7cf0670d97e80a105e9fb680f053afbd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>7cf0670d97e80a105e9fb680f053afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>f8f0670d97e80a105e9fb680f053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0d924298-7616-4295-9a04-70fbc31e4424}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0d924298-7616-4295-9a04-70fbc31e4424}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Solicita&amp;ccedil;&amp;otilde;es de Cr&amp;eacute;dito Record &amp;gt; Nome"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Nome&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0d924298-7616-4295-9a04-70fbc31e4424" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, Baseado no seu perfil de cr&amp;eacute;dito infelizmente sua solicita&amp;ccedil;&amp;atilde;o de cr&amp;eacute;dito foi&amp;nbsp;recusada !!!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>7cf0670d97e80a105e9fb680f053afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>bcf0670d97e80a105e9fb680f053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>7cf0670d97e80a105e9fb680f053afbd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>38f0670d97e80a105e9fb680f053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7cf0670d97e80a105e9fb680f053afbd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7cf0670d97e80a105e9fb680f053afbd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Muda o status para Work in progress</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053af6b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>5c6dd1b5-abf4-4ed4-abb7-004b2e5197d1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a0f0670d97e80a105e9fb680f053af6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0f0670d97e80a105e9fb680f053af6b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>acf0670d97e80a105e9fb680f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a0f0670d97e80a105e9fb680f053af6b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e8f0670d97e80a105e9fb680f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a0f0670d97e80a105e9fb680f053af6b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a0f0670d97e80a105e9fb680f053af6b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a0f0670d97e80a105e9fb680f053af6b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e0f0670d97e80a105e9fb680f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a0f0670d97e80a105e9fb680f053af6b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a0f0670d97e80a105e9fb680f053af6b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0f0670d97e80a105e9fb680f053af6b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Mudança de grupo para RMA APROVVERS</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>d6e67d3a-3730-4cf4-8a94-59b20bcf4d39</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4f0670d97e80a105e9fb680f053af55"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4f0670d97e80a105e9fb680f053af55</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>assignment_group={"display":"RMA Approvers","value":"1c590685c0a8018b2a473a7159ff5d9a","sys_id":"1c590685c0a8018b2a473a7159ff5d9a"}^work_notes=Solicitação de CRÉDITO recebida</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4f0670d97e80a105e9fb680f053af55</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>e4f0670d97e80a105e9fb680f053af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4f0670d97e80a105e9fb680f053af55"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a4f0670d97e80a105e9fb680f053af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053af57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a4f0670d97e80a105e9fb680f053af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>2cf0670d97e80a105e9fb680f053af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a4f0670d97e80a105e9fb680f053af55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053af56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a4f0670d97e80a105e9fb680f053af55"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a4f0670d97e80a105e9fb680f053af55"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Mudança de Grupo para o OpenSpace</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af77</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>ddaff2b3-6b5a-4973-a5ce-5bd9e35ee016</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4f0670d97e80a105e9fb680f053af77"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4f0670d97e80a105e9fb680f053af77</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4f0670d97e80a105e9fb680f053af77</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>assignment_group={"display":"Openspace","value":"36c741fa731313005754660c4cf6a70d","sys_id":"36c741fa731313005754660c4cf6a70d"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4f0670d97e80a105e9fb680f053af77"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a4f0670d97e80a105e9fb680f053af77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a4f0670d97e80a105e9fb680f053af77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e4f0670d97e80a105e9fb680f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a4f0670d97e80a105e9fb680f053af77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a8f0670d97e80a105e9fb680f053af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a4f0670d97e80a105e9fb680f053af77"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a4f0670d97e80a105e9fb680f053af77"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment>Espero o Operador deixar em Closed Complete</comment>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>acf0670d97e80a105e9fb680f053af7e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>55819204-cc77-4e2d-ab6c-76ac9e3bb03a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acf0670d97e80a105e9fb680f053af7e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acf0670d97e80a105e9fb680f053af7e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>64f0670d97e80a105e9fb680f053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acf0670d97e80a105e9fb680f053af7e</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acf0670d97e80a105e9fb680f053af7e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>acf0670d97e80a105e9fb680f053af7e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>6cf0670d97e80a105e9fb680f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>acf0670d97e80a105e9fb680f053af7e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a8f0670d97e80a105e9fb680f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>acf0670d97e80a105e9fb680f053af7e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>20f0670d97e80a105e9fb680f053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=acf0670d97e80a105e9fb680f053af7e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=acf0670d97e80a105e9fb680f053af7e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Manda um email avisando que foi aprovada!</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>13</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e0f0670d97e80a105e9fb680f053af8e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>de211e5b-0d28-48db-b1a7-f4aa0a53fef3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e0f0670d97e80a105e9fb680f053af8e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e0f0670d97e80a105e9fb680f053af8e</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>Solicitação de Crédito foi Aprovada</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e0f0670d97e80a105e9fb680f053af8e</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e0f0670d97e80a105e9fb680f053af8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e0f0670d97e80a105e9fb680f053af8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>60f0670d97e80a105e9fb680f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;,&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:39e3a573-c3ef-4292-a1d5-0ade293a7300}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:39e3a573-c3ef-4292-a1d5-0ade293a7300}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="Trigger - Record Created &amp;gt; Solicita&amp;ccedil;&amp;otilde;es de Cr&amp;eacute;dito Record &amp;gt; Nome"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Nome&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_39e3a573-c3ef-4292-a1d5-0ade293a7300" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, Sua solicita&amp;ccedil;&amp;atilde;o de cr&amp;eacute;dito foi aprovada !!!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e0f0670d97e80a105e9fb680f053af8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>24f0670d97e80a105e9fb680f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e0f0670d97e80a105e9fb680f053af8e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>acf0670d97e80a105e9fb680f053af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e0f0670d97e80a105e9fb680f053af8e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e0f0670d97e80a105e9fb680f053af8e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053af4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>535858e9-a679-4fc9-babf-7f149f108779</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ecf0670d97e80a105e9fb680f053af4e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ecf0670d97e80a105e9fb680f053af4e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>acf0670d97e80a105e9fb680f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="Webhook URL">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ecf0670d97e80a105e9fb680f053af4e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>ecf0670d97e80a105e9fb680f053af4e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>2cf0670d97e80a105e9fb680f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>NOVA SOLICITAÇÃO DE CRÉDITO RECEBIDA: {{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>ecf0670d97e80a105e9fb680f053af4e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>68f0670d97e80a105e9fb680f053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ecf0670d97e80a105e9fb680f053af4e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ecf0670d97e80a105e9fb680f053af4e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Worknotes</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053af5b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>22ede3b7-ccc8-4cc0-8fd2-8621fb4b6ffb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ecf0670d97e80a105e9fb680f053af5b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ecf0670d97e80a105e9fb680f053af5b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>28f0670d97e80a105e9fb680f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>work_notes=Aguardando Aprovação do RMA</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ecf0670d97e80a105e9fb680f053af5b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e8f0670d97e80a105e9fb680f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value>x_1174267_solici_0_solicitacoesdecredito</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ecf0670d97e80a105e9fb680f053af5b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ecf0670d97e80a105e9fb680f053af5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a4f0670d97e80a105e9fb680f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ecf0670d97e80a105e9fb680f053af5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>20f0670d97e80a105e9fb680f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ecf0670d97e80a105e9fb680f053af5b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e0f0670d97e80a105e9fb680f053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ecf0670d97e80a105e9fb680f053af5b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ecf0670d97e80a105e9fb680f053af5b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="SendWhatsAppMsg">d8dc769347ab311008334d05516d4319</action_type>
+        <action_type_parent display_value="SendWhatsAppMsg">bf6c3e5347ab311008334d05516d4325</action_type_parent>
+        <attributes/>
+        <comment>Mensagem no whatsapp avisando que foi aprovado!</comment>
+        <compiled_snapshot>d8dc769347ab311008334d05516d4319</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>ecf0670d97e80a105e9fb680f053afab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>f8755a2a-5375-4dbd-8295-a0569732c883</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ecf0670d97e80a105e9fb680f053afab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ecf0670d97e80a105e9fb680f053afab</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>e4f0670d97e80a105e9fb680f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="To">14dc769347ab311008334d05516d4355</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ecf0670d97e80a105e9fb680f053afab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body4</field>
+        <id>ecf0670d97e80a105e9fb680f053afab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>a0f0670d97e80a105e9fb680f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8dc769347ab311008334d05516d4319</table>
+        <value>Eiii, {{Created_1.current.nome}}!! Sua solicitação de Crédito foi APROVADA!!!!!! </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>ecf0670d97e80a105e9fb680f053afab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>64f0670d97e80a105e9fb680f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8dc769347ab311008334d05516d4319</table>
+        <value>{{Created_1.current.telefone}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ecf0670d97e80a105e9fb680f053afab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ecf0670d97e80a105e9fb680f053afab"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="InserirDadosParaAuditoria">1a9f2e53476b311008334d05516d43b5</action_type>
+        <action_type_parent display_value="InserirDadosParaAuditoria">16cdee9f472b311008334d05516d4368</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>1a9f2e53476b311008334d05516d43b5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>f8f0670d97e80a105e9fb680f053afb4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <ui_id>abe653ec-61ec-4d9e-80ff-46ed2faefacc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f8f0670d97e80a105e9fb680f053afb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8f0670d97e80a105e9fb680f053afb4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>70f0670d97e80a105e9fb680f053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="valordocred">d29f2e53476b311008334d05516d43c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f8f0670d97e80a105e9fb680f053afb4</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>bcf0670d97e80a105e9fb680f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <value/>
+        <variable display_value="parcelas">529f2e53476b311008334d05516d43c5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f8f0670d97e80a105e9fb680f053afb4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>iddasolicitacao</field>
+        <id>f8f0670d97e80a105e9fb680f053afb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>3cf0670d97e80a105e9fb680f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1a9f2e53476b311008334d05516d43b5</table>
+        <value>{{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>f8f0670d97e80a105e9fb680f053afb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>b4f0670d97e80a105e9fb680f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1a9f2e53476b311008334d05516d43b5</table>
+        <value>{{Created_1.current.nome.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parcelas</field>
+        <id>f8f0670d97e80a105e9fb680f053afb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>f0f0670d97e80a105e9fb680f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1a9f2e53476b311008334d05516d43b5</table>
+        <value>{{Created_1.current.parcelas}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>valordocred</field>
+        <id>f8f0670d97e80a105e9fb680f053afb4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:49</sys_created_on>
+        <sys_id>78f0670d97e80a105e9fb680f053afb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1a9f2e53476b311008334d05516d43b5</table>
+        <value>{{Created_1.current.valor_do_credito}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8f0670d97e80a105e9fb680f053afb4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8f0670d97e80a105e9fb680f053afb4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN1cf0670d97e80a105e9fb680f053af1b,54f0670d97e80a105e9fb680f053af16"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ccbc0a2497e846105e9fb680f053aff9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>1deb2443-fca4-44f9-852c-102189256bbb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>1cf0670d97e80a105e9fb680f053af1b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>f0dbed83-dcb6-4a36-9482-74569c5900c4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1cf0670d97e80a105e9fb680f053af1b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1cf0670d97e80a105e9fb680f053af1b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1cf0670d97e80a105e9fb680f053af1b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">88bc0a2497e846105e9fb680f053afdc</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Flow de Crédito">9cf0270d97e80a105e9fb680f053afff</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>54f0670d97e80a105e9fb680f053af16</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <ui_id>1deb2443-fca4-44f9-852c-102189256bbb</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=54f0670d97e80a105e9fb680f053af16"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>54f0670d97e80a105e9fb680f053af16</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>94f0670d97e80a105e9fb680f053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <value>Aprovado</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=54f0670d97e80a105e9fb680f053af16"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>54f0670d97e80a105e9fb680f053af16</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>14f0670d97e80a105e9fb680f053af1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>54f0670d97e80a105e9fb680f053af16</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>1cf0670d97e80a105e9fb680f053af19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=54f0670d97e80a105e9fb680f053af16"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=54f0670d97e80a105e9fb680f053af16"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN78f0670d97e80a105e9fb680f053aff4,7cf0670d97e80a105e9fb680f053aff4,b0f0670d97e80a105e9fb680f053aff4,f8f0670d97e80a105e9fb680f053aff4,fcf0670d97e80a105e9fb680f053aff4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9cf0270d97e80a105e9fb680f053afff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.nome.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:50</sys_created_on>
+        <sys_id>78f0670d97e80a105e9fb680f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>de806baf-8a90-4189-bc86-7feac44bdb79</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9cf0270d97e80a105e9fb680f053afff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{25ce8e76-6e79-4826-916a-132d5fe8ff9c.nome}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:50</sys_created_on>
+        <sys_id>7cf0670d97e80a105e9fb680f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ffb22910-8fd1-44c7-bbf5-a11b398797e4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9cf0270d97e80a105e9fb680f053afff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{25ce8e76-6e79-4826-916a-132d5fe8ff9c.nome.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:50</sys_created_on>
+        <sys_id>b0f0670d97e80a105e9fb680f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>00f23e38-14bf-4f20-a8b1-2f72eedacc0d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9cf0270d97e80a105e9fb680f053afff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.nome.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:50</sys_created_on>
+        <sys_id>f8f0670d97e80a105e9fb680f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>15dca8fa-0a07-4da5-a188-22fa9b28a938</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9cf0270d97e80a105e9fb680f053afff</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.nome.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:50</sys_created_on>
+        <sys_id>fcf0670d97e80a105e9fb680f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7cf0216e-d96c-4d07-985f-d703e55fab3d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff^sys_idNOT IN94f0670d97e80a105e9fb680f053af12,dcf0670d97e80a105e9fb680f053af0e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>94f0670d97e80a105e9fb680f053af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 19:55:48</sys_created_on>
+        <sys_id>dcf0670d97e80a105e9fb680f053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9cf0270d97e80a105e9fb680f053afff"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9cf0270d97e80a105e9fb680f053afff"/>
+</record_update>
