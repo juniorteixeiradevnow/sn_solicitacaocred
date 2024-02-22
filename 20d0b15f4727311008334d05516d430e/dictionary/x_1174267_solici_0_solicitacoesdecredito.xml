@@ -5,7 +5,7 @@
         <element label="CPF" max_length="40" name="cpf" type="string"/>
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Endereço" max_length="1000" name="endereco" type="string"/>
-        <element label="Nome" max_length="32" name="nome" reference="sys_user" type="reference"/>
+        <element label="Nome" max_length="40" name="nome" type="string"/>
         <element label="Parcelas" max_length="40" name="parcelas" type="integer"/>
         <element label="RG" max_length="40" name="rg" type="string"/>
         <element choice="1" label="Sexo" max_length="40" name="sexo" type="choice">
