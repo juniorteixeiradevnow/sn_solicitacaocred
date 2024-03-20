@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes>8f0ec3492c5f441781f1f44f36351242</includes>
         <macroponent display_value="Home">7d7643b44ebbb110bb520b8da6bfcb06</macroponent>
         <name>Filter ssign</name>

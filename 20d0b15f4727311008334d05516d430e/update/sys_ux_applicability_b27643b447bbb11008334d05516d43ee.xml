@@ -4,6 +4,7 @@
         <api_name>x_1174267_solici_0.Audience for app solicitao-de-crdito</api_name>
         <description/>
         <name>Audience for app solicitao-de-crdito</name>
+        <role_names/>
         <roles>20d0b15f4727311008334d05516d4315,24d0b15f4727311008334d05516d4319</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

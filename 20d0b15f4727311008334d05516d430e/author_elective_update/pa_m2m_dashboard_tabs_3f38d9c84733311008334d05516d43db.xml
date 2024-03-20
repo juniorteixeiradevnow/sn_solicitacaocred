@@ -47,7 +47,7 @@
         <update_guid_history>bb38d9c80233311033dc6d7ae28846dc:-203055026</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Incident Overview">c95855c84733311008334d05516d432a</sys_audit_delete>
+        <sys_audit_delete display_value="">c95855c84733311008334d05516d432a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-13 00:37:54</sys_created_on>

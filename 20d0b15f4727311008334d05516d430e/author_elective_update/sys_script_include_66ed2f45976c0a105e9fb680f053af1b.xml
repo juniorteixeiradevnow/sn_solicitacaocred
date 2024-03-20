@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1174267_solici_0.BuscaSysIdByName</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>BuscaSysIdByName</name>
+        <script><![CDATA[var BuscaSysIdByName = Class.create();
+BuscaSysIdByName.prototype = {
+    initialize: function() {
+    },
+	
+	search: function (nome){
+		var gr = new GlideRecord('sys_user');
+		gr.addEncodedQuery("nameLIKE" + nome);
+		gr.query();
+
+		while(gr.next()){
+		gs.info(gr.getValue('sys_id'));
+		}
+	},
+
+    type: 'BuscaSysIdByName'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 20:54:03</sys_created_on>
+        <sys_id>66ed2f45976c0a105e9fb680f053af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BuscaSysIdByName</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_update_name>sys_script_include_66ed2f45976c0a105e9fb680f053af1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:54:03</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</application>
+        <file_path/>
+        <instance_id>f9f9fa07dbd69d90b847ac44d4961982</instance_id>
+        <instance_name>dev139883</instance_name>
+        <name>sys_script_include_66ed2f45976c0a105e9fb680f053af1b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1174267_solici_0.BuscaSysIdByName&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;BuscaSysIdByName&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var BuscaSysIdByName = Class.create();
+BuscaSysIdByName.prototype = {
+    initialize: function() {
+    },
+	
+	search: function (nome){
+		var gr = new GlideRecord('sys_user');
+		gr.addEncodedQuery("nameLIKE" + nome);
+		gr.query();
+
+		while(gr.next()){
+		gs.info(gr.getValue('sys_id'));
+		}
+	},
+
+    type: 'BuscaSysIdByName'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 20:54:03&lt;/sys_created_on&gt;&lt;sys_id&gt;66ed2f45976c0a105e9fb680f053af1b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;BuscaSysIdByName&lt;/sys_name&gt;&lt;sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0"&gt;20d0b15f4727311008334d05516d430e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Solicitação de Crédito"&gt;20d0b15f4727311008334d05516d430e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_66ed2f45976c0a105e9fb680f053af1b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 20:54:03&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>861924921</payload_hash>
+        <record_name>BuscaSysIdByName</record_name>
+        <reverted_from/>
+        <source>602ea0a897a046105e9fb680f053afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 20:54:03</sys_created_on>
+        <sys_id>ed4e2f45976c0a105e9fb680f053af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd298c2a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:54:03</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>a14e2f453f6c0a10add3d863b40a7930</update_guid>
+        <update_guid_history>a14e2f453f6c0a10add3d863b40a7930:861924921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 20:55:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2729534432b746448754264979170339</sys_id>
+        <sys_metadata>66ed2f45976c0a105e9fb680f053af1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BuscaSysIdByName</sys_name>
+        <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
+        <sys_scope_delete display_value="">2401dd0265f342d09565f185e072f901</sys_scope_delete>
+        <sys_update_name>sys_script_include_66ed2f45976c0a105e9fb680f053af1b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_66ed2f45976c0a105e9fb680f053af1b">ed4e2f45976c0a105e9fb680f053af30</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:55:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

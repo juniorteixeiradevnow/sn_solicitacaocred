@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Tratamento solicitação cred App Config">3301aa20ed6c4610fedcd46030462f8b</app_config>
+        <app_config display_value="">3301aa20ed6c4610fedcd46030462f8b</app_config>
         <description/>
         <extension_point/>
         <fields>globalSearchViewConfigId</fields>

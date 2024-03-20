@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Tratamento solicitação cred">bb01aa206c6c4610cf21b20a46987a83</dashboard>
-        <experience display_value="Tratamento solicitação cred">3301aa20dc6c461023f42fa35f5f468a</experience>
+        <experience display_value="">3301aa20dc6c461023f42fa35f5f468a</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-21 01:59:44</sys_created_on>

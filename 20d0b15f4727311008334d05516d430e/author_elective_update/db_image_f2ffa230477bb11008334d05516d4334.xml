@@ -87,7 +87,7 @@
         <update_guid_history>b2f3fef0e77bb1107fc29b81de0fa364:1800331935,bef3beb0337bb11056e2934b565db4cd:970128631,36f3beb06b7bb11015da9a8a46b92ccb:652408709,89f3feb05b7bb110e09c30dd81c9bced:282533035,0410f230ab7bb1102783ef1c8ba9c375:549541664,4410f230ff7bb110edf6497958f4b270:-728165760,c81072302f7bb1105114cb095ce0edeb:768540238,8a00f2301c7bb11031ea4566dcc5e71b:61230754</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1174267_solici_0.nowprobankheader.png">4b843a34477bb11008334d05516d43c5</sys_audit_delete>
+        <sys_audit_delete display_value="">4b843a34477bb11008334d05516d43c5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-15 15:16:16</sys_created_on>

@@ -2052,11 +2052,11 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_on>2024-02-22 19:55:48</sys_created_on>
         <sys_id>94f0670d97e80a105e9fb680f053af12</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
         <url/>
@@ -2075,11 +2075,11 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_on>2024-02-22 19:55:48</sys_created_on>
         <sys_id>dcf0670d97e80a105e9fb680f053af0e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9cf0270d97e80a105e9fb680f053afff_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-02-22 19:55:48</sys_updated_on>
         <url/>

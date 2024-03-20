@@ -45,7 +45,7 @@
         <update_guid_history>37339984a73331100025f3cc420842fd:-446496210,37339984a73331100025f3cc420842fd:-446496210,37339984a73331100025f3cc420842fd:-446496210</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="teste incidente - New Tab">fa461d484733311008334d05516d4366</sys_audit_delete>
+        <sys_audit_delete display_value="">fa461d484733311008334d05516d4366</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-13 00:29:01</sys_created_on>

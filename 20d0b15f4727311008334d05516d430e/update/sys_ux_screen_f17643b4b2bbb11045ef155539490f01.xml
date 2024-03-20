@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Solicitação de Crédito Config">b17643b4ecbbb1100a1c9e580a429b17</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Record Default">b57643b4a0bbb110aaa9e8a47a254d07</macroponent>
         <macroponent_config>{

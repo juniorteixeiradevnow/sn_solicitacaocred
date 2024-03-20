@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3558444000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3716941000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -14,7 +14,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>flow_de_crdito</internal_name>
-        <label_cache>[{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current.nome.name","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações de Crédito Record","reference":"x_1174267_solici_0_solicitacoesdecredito","reference_display":"Solicitações de Crédito","type":"reference","base_type":"reference","attributes":{}},{"name":"d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.nome.sys_id","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"number"},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"float","base_type":"float","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"valor_do_credito"},{"name":"Created_1.current.parcelas","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Parcelas","reference":"","reference_display":"Parcelas","type":"integer","base_type":"integer","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"parcelas"},{"name":"Created_1.current.telefone","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Telefone","reference":"","reference_display":"Telefone","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"telefone"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.telefone","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Telefone","reference":"","reference_display":"Telefone","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"telefone"},{"name":"Created_1.current.parcelas","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Parcelas","reference":"","reference_display":"Parcelas","type":"integer","base_type":"integer","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"parcelas"},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"float","base_type":"float","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"valor_do_credito"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"number"},{"name":"Created_1.current.nome.sys_id","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações de Crédito Record","reference":"x_1174267_solici_0_solicitacoesdecredito","reference_display":"Solicitações de Crédito","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"email"},{"name":"Created_1.current.nome.name","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>ebcece5f47a7311008334d05516d43d6</master_snapshot>
         <name>Flow de Crédito</name>
         <natlang/>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3460e1747a7311008334d05516d43e5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Flow de Crédito</sys_name>
         <sys_overrides/>
         <sys_package display_value="Solicitação de Crédito" source="x_1174267_solici_0">20d0b15f4727311008334d05516d430e</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name>sys_hub_flow_d3460e1747a7311008334d05516d43e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:53</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d3460e1747a7311008334d05516d43e5"/>
@@ -74,18 +74,18 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>d3460e1747a7311008334d05516d43e5</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-02-21 00:30:50</sys_created_on>
-        <sys_id>b1bc4e2497e846105e9fb680f053af6a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-02-22 20:32:27</sys_created_on>
+        <sys_id>dd596f4d972c0a105e9fb680f053afc4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:34:43</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <trigger display_value="">ffce029f47a7311008334d05516d433b</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d3460e1747a7311008334d05516d43e5^sys_idNOT INb1bc4e2497e846105e9fb680f053af6a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d3460e1747a7311008334d05516d43e5^sys_idNOT INdd596f4d972c0a105e9fb680f053afc4"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=d3460e1747a7311008334d05516d43e5^sys_idNOT IN78f84ed747a7311008334d05516d433e"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>Trigger de quando é criado uma solicitação</comment>
@@ -96,10 +96,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:14:53</sys_created_on>
         <sys_id>78f84ed747a7311008334d05516d433e</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -212,14 +212,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:14:53</sys_created_on>
         <sys_id>30f84ed747a7311008334d05516d433a</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -296,14 +296,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:14:53</sys_created_on>
         <sys_id>74f84ed747a7311008334d05516d4336</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -336,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 00:06:36</sys_created_on>
         <sys_id>17fd761747ab311008334d05516d43e1</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:07</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>46d5e64e-59b0-474f-9e56-7e8ee3e47c55</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=17fd761747ab311008334d05516d43e1"/>
@@ -426,10 +426,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:04:49</sys_created_on>
         <sys_id>1f122e53472b311008334d05516d43c8</sys_id>
-        <sys_mod_count>94</sys_mod_count>
+        <sys_mod_count>102</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>d316affa-5e9a-4ac2-9c44-6b834bce20e0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1f122e53472b311008334d05516d43c8"/>
@@ -580,10 +580,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>35b62a97472b311008334d05516d435e</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>86d2568d-adb4-452c-a0eb-6170b643d0de</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35b62a97472b311008334d05516d435e"/>
@@ -670,10 +670,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:24</sys_created_on>
         <sys_id>424762d7472b311008334d05516d43d8</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>52592a0c-6f23-4d36-91d8-d7ebc84fa6d6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=424762d7472b311008334d05516d43d8"/>
@@ -760,10 +760,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>42b62a97472b311008334d05516d4372</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>1a9baddb-7222-4470-ba9e-898b2eed63b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=42b62a97472b311008334d05516d4372"/>
@@ -851,10 +851,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:57</sys_created_on>
         <sys_id>42b62a97472b311008334d05516d437a</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>de211e5b-0d28-48db-b1a7-f4aa0a53fef3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=42b62a97472b311008334d05516d437a"/>
@@ -941,10 +941,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 00:10:39</sys_created_on>
         <sys_id>62eef29747ab311008334d05516d43d2</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>f8755a2a-5375-4dbd-8295-a0569732c883</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=62eef29747ab311008334d05516d43d2"/>
@@ -1017,10 +1017,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 01:54:09</sys_created_on>
         <sys_id>6e96d713472f311008334d05516d4356</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:07</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>535858e9-a679-4fc9-babf-7f149f108779</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e96d713472f311008334d05516d4356"/>
@@ -1032,10 +1032,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 01:54:10</sys_created_on>
         <sys_id>2696d713472f311008334d05516d4359</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:06:11</sys_updated_on>
-        <value>https://hooks.slack.com/services/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</value>
+        <sys_updated_on>2024-02-22 20:32:14</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
         <variable display_value="Webhook URL">cdca0f433be0030057a4a2e334efc476</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6e96d713472f311008334d05516d4356"/>
@@ -1081,10 +1081,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>75b62a97472b311008334d05516d436b</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>55819204-cc77-4e2d-ab6c-76ac9e3bb03a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=75b62a97472b311008334d05516d436b"/>
@@ -1171,10 +1171,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:24</sys_created_on>
         <sys_id>794762d7472b311008334d05516d43d1</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>794f746d-3316-4918-9b2c-edef34c6b8e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=794762d7472b311008334d05516d43d1"/>
@@ -1261,10 +1261,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:24:06</sys_created_on>
         <sys_id>7b0b429b47a7311008334d05516d4387</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>120</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>d6e67d3a-3730-4cf4-8a94-59b20bcf4d39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7b0b429b47a7311008334d05516d4387"/>
@@ -1351,10 +1351,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:14:53</sys_created_on>
         <sys_id>7cf84ed747a7311008334d05516d4344</sys_id>
-        <sys_mod_count>114</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:07</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>25ce8e76-6e79-4826-916a-132d5fe8ff9c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7cf84ed747a7311008334d05516d4344"/>
@@ -1441,10 +1441,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:14:53</sys_created_on>
         <sys_id>7cf84ed747a7311008334d05516d434c</sys_id>
-        <sys_mod_count>114</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:07</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>f7d2e51c-5860-4160-b0a1-c2821c05519d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7cf84ed747a7311008334d05516d434c"/>
@@ -1531,10 +1531,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>b1b62a97472b311008334d05516d4364</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>ddaff2b3-6b5a-4973-a5ce-5bd9e35ee016</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1b62a97472b311008334d05516d4364"/>
@@ -1621,10 +1621,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>b5b62a97472b311008334d05516d4358</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>5c6dd1b5-abf4-4ed4-abb7-004b2e5197d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b5b62a97472b311008334d05516d4358"/>
@@ -1711,10 +1711,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>f5b62a97472b311008334d05516d434a</sys_id>
-        <sys_mod_count>84</sys_mod_count>
+        <sys_mod_count>92</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>22ede3b7-ccc8-4cc0-8fd2-8621fb4b6ffb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5b62a97472b311008334d05516d434a"/>
@@ -1801,10 +1801,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:06:47</sys_created_on>
         <sys_id>f6407a93476b311008334d05516d43f3</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:39:08</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-22 20:33:34</sys_updated_on>
         <ui_id>abe653ec-61ec-4d9e-80ff-46ed2faefacc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6407a93476b311008334d05516d43f3"/>
@@ -1913,10 +1913,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:24:56</sys_created_on>
         <sys_id>3db62a97472b311008334d05516d434f</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <ui_id>1deb2443-fca4-44f9-852c-102189256bbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1986,10 +1986,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:34:57</sys_created_on>
         <sys_id>6409629b472b311008334d05516d436f</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <ui_id>f0dbed83-dcb6-4a36-9482-74569c5900c4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2148,7 +2148,7 @@ CRÉDITO FOI LIBERADO!</value>
         <description>Workflow a ser seguido para analise de crédito</description>
         <flow_priority/>
         <internal_name>flow_de_crdito</internal_name>
-        <label_cache>[{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current.nome.name","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"email"},{"name":"25ce8e76-6e79-4826-916a-132d5fe8ff9c.nome.name","label":"1➛nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"25ce8e76-6e79-4826-916a-132d5fe8ff9c.nome","label":"1 - Get Catalog Variables➛nome","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"25ce8e76-6e79-4826-916a-132d5fe8ff9c.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações de Crédito Record","reference":"x_1174267_solici_0_solicitacoesdecredito","reference_display":"Solicitações de Crédito","type":"reference","base_type":"reference","attributes":{}},{"name":"d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.nome.sys_id","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"number"},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"float","base_type":"float","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"valor_do_credito"},{"name":"Created_1.current.parcelas","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Parcelas","reference":"","reference_display":"Parcelas","type":"integer","base_type":"integer","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"parcelas"},{"name":"Created_1.current.telefone","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Telefone","reference":"","reference_display":"Telefone","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"telefone"},{"name":"25ce8e76-6e79-4826-916a-132d5fe8ff9c.telefone","label":"1 - Get Catalog Variables➛telefone","reference":"","reference_display":"telefone","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.telefone","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Telefone","reference":"","reference_display":"Telefone","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"telefone"},{"name":"Created_1.current.parcelas","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Parcelas","reference":"","reference_display":"Parcelas","type":"integer","base_type":"integer","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"parcelas"},{"name":"Created_1.current.valor_do_credito","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Valor do Crédito","reference":"","reference_display":"Valor do Crédito","type":"float","base_type":"float","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"valor_do_credito"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"number"},{"name":"Created_1.current.nome.sys_id","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"d316affa-5e9a-4ac2-9c44-6b834bce20e0.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações de Crédito Record","reference":"x_1174267_solici_0_solicitacoesdecredito","reference_display":"Solicitações de Crédito","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1174267_solici_0_solicitacoesdecredito","column_name":"email"},{"name":"Created_1.current.nome.name","label":"Trigger - Record Created➛Solicitações de Crédito Record➛Nome➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
         <name>Flow de Crédito</name>
         <natlang/>
@@ -2165,7 +2165,7 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ebcece5f47a7311008334d05516d43d6</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2173,7 +2173,7 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ebcece5f47a7311008334d05516d43d6"/>
@@ -2188,10 +2188,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:29</sys_created_on>
         <sys_id>7fce029f47a7311008334d05516d430d</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:51</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2304,14 +2304,14 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:28</sys_created_on>
         <sys_id>6fcece5f47a7311008334d05516d43d8</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2388,14 +2388,14 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:28</sys_created_on>
         <sys_id>afcece5f47a7311008334d05516d43e7</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2428,10 +2428,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>055726d7472b311008334d05516d43c8</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>5c6dd1b5-abf4-4ed4-abb7-004b2e5197d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=055726d7472b311008334d05516d43c8"/>
@@ -2518,10 +2518,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>095726d7472b311008334d05516d43e3</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>1a9baddb-7222-4470-ba9e-898b2eed63b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=095726d7472b311008334d05516d43e3"/>
@@ -2609,10 +2609,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:36</sys_created_on>
         <sys_id>0d5726d7472b311008334d05516d43bf</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>22ede3b7-ccc8-4cc0-8fd2-8621fb4b6ffb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d5726d7472b311008334d05516d43bf"/>
@@ -2699,10 +2699,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>0d5726d7472b311008334d05516d43f5</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>794f746d-3316-4918-9b2c-edef34c6b8e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d5726d7472b311008334d05516d43f5"/>
@@ -2789,10 +2789,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 00:08:43</sys_created_on>
         <sys_id>0e7e765747ab311008334d05516d43cf</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>46d5e64e-59b0-474f-9e56-7e8ee3e47c55</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0e7e765747ab311008334d05516d43cf"/>
@@ -2853,10 +2853,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 00:10:54</sys_created_on>
         <sys_id>0efe3a9747ab311008334d05516d435e</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>f8755a2a-5375-4dbd-8295-a0569732c883</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0efe3a9747ab311008334d05516d435e"/>
@@ -2917,10 +2917,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 23:06:59</sys_created_on>
         <sys_id>35507e93476b311008334d05516d43b7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>abe653ec-61ec-4d9e-80ff-46ed2faefacc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35507e93476b311008334d05516d43b7"/>
@@ -3019,10 +3019,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>415726d7472b311008334d05516d43ed</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>de211e5b-0d28-48db-b1a7-f4aa0a53fef3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=415726d7472b311008334d05516d43ed"/>
@@ -3109,10 +3109,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>455726d7472b311008334d05516d43fc</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>52592a0c-6f23-4d36-91d8-d7ebc84fa6d6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=455726d7472b311008334d05516d43fc"/>
@@ -3199,10 +3199,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:06:16</sys_created_on>
         <sys_id>68726693472b311008334d05516d4378</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>d316affa-5e9a-4ac2-9c44-6b834bce20e0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=68726693472b311008334d05516d4378"/>
@@ -3353,10 +3353,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:29</sys_created_on>
         <sys_id>77ce029f47a7311008334d05516d4303</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>f7d2e51c-5860-4160-b0a1-c2821c05519d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77ce029f47a7311008334d05516d4303"/>
@@ -3443,10 +3443,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>815726d7472b311008334d05516d43d4</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>ddaff2b3-6b5a-4973-a5ce-5bd9e35ee016</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=815726d7472b311008334d05516d43d4"/>
@@ -3533,10 +3533,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>c15726d7472b311008334d05516d43ce</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>86d2568d-adb4-452c-a0eb-6170b643d0de</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c15726d7472b311008334d05516d43ce"/>
@@ -3623,10 +3623,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>c15726d7472b311008334d05516d43dd</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>55819204-cc77-4e2d-ab6c-76ac9e3bb03a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c15726d7472b311008334d05516d43dd"/>
@@ -3713,10 +3713,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 01:54:25</sys_created_on>
         <sys_id>eaa61f13472f311008334d05516d4388</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>535858e9-a679-4fc9-babf-7f149f108779</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eaa61f13472f311008334d05516d4388"/>
@@ -3728,10 +3728,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 01:54:25</sys_created_on>
         <sys_id>66a61f13472f311008334d05516d438a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:46</sys_updated_on>
-        <value>https://hooks.slack.com/services/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</value>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
         <variable display_value="Webhook URL">cdca0f433be0030057a4a2e334efc476</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=eaa61f13472f311008334d05516d4388"/>
@@ -3777,10 +3777,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:28</sys_created_on>
         <sys_id>efcece5f47a7311008334d05516d43f7</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>25ce8e76-6e79-4826-916a-132d5fe8ff9c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=efcece5f47a7311008334d05516d43f7"/>
@@ -3867,10 +3867,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:29</sys_created_on>
         <sys_id>f7ce029f47a7311008334d05516d430b</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>d6e67d3a-3730-4cf4-8a94-59b20bcf4d39</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f7ce029f47a7311008334d05516d430b"/>
@@ -3967,10 +3967,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:27:37</sys_created_on>
         <sys_id>0d5726d7472b311008334d05516d43fe</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>1deb2443-fca4-44f9-852c-102189256bbb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4040,10 +4040,10 @@ CRÉDITO FOI LIBERADO!</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 22:37:00</sys_created_on>
         <sys_id>a2792e9b472b311008334d05516d43c9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Solicitação de Crédito">20d0b15f4727311008334d05516d430e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:47</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:23</sys_updated_on>
         <ui_id>f0dbed83-dcb6-4a36-9482-74569c5900c4</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4198,17 +4198,17 @@ CRÉDITO FOI LIBERADO!</value>
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"33ce029f47a7311008334d05516d433e","name":"plan","plan_signature":null}}</plan>
         <plan_id>d3460e1747a7311008334d05516d43e5</plan_id>
-        <snapshot>329e822897e846105e9fb680f053af79</snapshot>
+        <snapshot>5999eb8d972c0a105e9fb680f053afce</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 20:40:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>33ce029f47a7311008334d05516d433e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-21 00:30:50</sys_updated_on>
+        <sys_updated_on>2024-02-22 20:32:27</sys_updated_on>
         <trigger display_value="">ffce029f47a7311008334d05516d433b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d3460e1747a7311008334d05516d43e5"/>
